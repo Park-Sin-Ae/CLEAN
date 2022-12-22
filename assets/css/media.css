@@ -1,0 +1,1627 @@
+@media (max-width: 1280px) {
+    /*메인*/
+    .subTit h1 {font-size: 1.5rem;}
+    .subMenuWrap {grid-template-columns: 1fr 1fr 1fr;padding: 30px;}
+    .gnb-box > li > a {margin: 0 35px;}
+    .gnb-box > li:nth-child(1) .subGnb {height: 200px;}
+    .gnb-box > li:nth-child(2) .subGnb, .gnb-box > li:nth-child(4) .subGnb, .gnb-box > li:nth-child(5) .subGnb {height: 560px;}
+    .gnb-box > li:nth-child(3) .subGnb {height: 670px;}
+    .subMenuWrap > div {margin: 20px;}
+    .subMenuBx a {margin: 0 25px; white-space: nowrap; overflow: hidden;}
+    .tglSubTitWrap {margin: 0 10px;}
+    .tglTitWrap {padding: 45px 80px;}
+    .tglSubTit a {font-size: 1rem;}
+    .tglTit h1 {font-size: 1.2rem;}
+    .visual-txt p {font-size: 1.1rem;line-height: 68px;}
+    .visual-txt .tit {font-size: 2.5rem;line-height: 50px;}
+    .visual-txt {left: 100px;top: 90px;}
+    .mainWrap .swiper-pagination {top: 320px;left: 110px;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-button-prev {top: 335px !important;}
+    .mainWrap .swiper-button-prev, .mainWrap .swiper-container-rtl .swiper-button-next {left: 320px !important;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-container-rtl .swiper-button-prev {left: 370px !important;}
+    .wrap-autoplay-control {top: 325px;left: 350px;}
+    .mainWrap .swiper-container {height: 600px;}
+    .frqntBtn {margin: 0 50px;}
+    .mainCont .titleBar h1 {font-size: 1.2rem;}
+    .mainContWrap {padding-top: 30px;}
+    .basicKnwld, .anlysRprt {width: 400px;height: 300px;}
+    .basicKnwld a, .anlysRprt a {width: 400px;height: 300px;}
+    .imprmArea img {padding-top: 80px;}
+    .mainCont {max-width: 1200px;}
+    .noticeItem {padding: 20px;margin-bottom: 13px;}
+    /*.noticeTxt span {font-size: 1rem;}*/
+    /*.noticeTxt p {font-size: 0.8rem;}*/
+    .prtnrArea {margin-top: 60px;}
+    .prtnrWrap {max-width: 1200px;}
+    .slideBtn {left: 30px;}
+    .ftWrap {max-width: 1200px;}
+    .ftWrap .adr {font-size: 0.9rem;padding-left: 30px;}
+    .ftWrap, .footer {height: 150px;}
+    .ftLogo img, .ftWaLogo img {width: 100px;}
+    .content {max-width: 1200px;}
+    .insert .inptBxMd {width: 600px;}
+    .insert .inptBxLg {width: 918px;}
+    .userRetrieve .field {margin: 0 20px;}
+    /*모달*/
+    .modal-content {width: 80%;}
+    .slcTblmdl .modal-content {width: 75%;height: 800px; overflow-y: auto;}
+    .slcTblmdl .modalTab .insert {width: 100%}
+    .slcTblmdl .field {display: block;}
+    .slcTblmdl .field div:first-child {margin-bottom: 10px;}
+    .slcTblmdl .field > .field, .slcTblmdl .field input {margin-left: 0;}
+    .slcTblmdl .field .mdlFlex {margin-bottom: 23px;}
+    .slcTblmdl .mdlField .field {display: block; width: 100%;}
+    .slcTblmdl .mdlField .insert {width: 100%;}
+    .slcTblmdl .mdlField .field:nth-child(2) {margin-left: 0;}
+}
+
+@media (max-width: 1111px) {
+    /*메인*/
+    .userTgle {width: 30%;}
+    .topbanr-swiper {width: 930px;}
+    .hdrCntnr {padding: 0 20px;}
+    .useInfoBtn {margin: 0 20px;}
+    .useInfoBtn button {font-size: 0.8rem;}
+    .useInfoBtn:before {width: 30px; height: 30px; background-size: 30px 30px;}
+    .sideBtn {margin-right: 10px; margin-left: 40px;}
+    .gnb-box > li > a {margin: 0 30px;font-size: 1rem;}
+    .gnb-box > li > a > span {font-size: 1rem;}
+    .sideBtn a {padding: 9px 10px;font-size: 0.8rem;}
+    .sub-box .subTitWrap {width: 300px;}
+    .subTit h1 {font-size: 1.5rem;}
+    .subMenuWrap {grid-template-columns: 1fr 1fr;padding: 30px;}
+    .gnb-box > li:nth-child(1) .subGnb {height: 200px;}
+    .gnb-box > li:nth-child(2) .subGnb, .gnb-box > li:nth-child(4) .subGnb, .gnb-box > li:nth-child(5) .subGnb {height: 560px;}
+    .gnb-box > li:nth-child(3) .subGnb {height: 670px;}
+    .subMenuWrap > div {margin: 20px;}
+    .tglSubTitWrap {margin: 0 10px;}
+    .tglTitWrap {padding: 45px 40px;}
+    .tglSubTit a {font-size: 1rem;}
+    .tglTit h1 {font-size: 1.2rem;}
+    .visual-txt p {font-size: 1.1rem;line-height: 68px;}
+    .visual-txt .tit {font-size: 2.5rem;line-height: 50px;}
+    .visual-txt {left: 100px;top: 90px;}
+    .mainWrap .swiper-pagination {top: 320px;left: 110px;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-button-prev {top: 335px !important;}
+    .mainWrap .swiper-button-prev, .mainWrap .swiper-container-rtl .swiper-button-next {left: 320px !important;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-container-rtl .swiper-button-prev {left: 370px !important;}
+    .wrap-autoplay-control {top: 325px;left: 350px;}
+    .mainWrap .swiper-container {height: 500px;}
+    .frqntTxt {margin-right: 40px;}
+    .frqntBox {padding: 30px 40px;}
+    .frqntBtn {margin: 0 30px;}
+    .frqntBtn a {font-size: 0.9rem;}
+    .frqntBtn img {height: 50px;}
+    .mainCont .titleBar h1 {font-size: 1.2rem;}
+    .mainContWrap {padding-top: 30px;}
+    .basicKnwld, .anlysRprt {width: 250px;height: 219px;}
+    .basicKnwld a, .anlysRprt a {width: 250px;height: 180px;}
+    .imprmArea img {padding-top: 55px;}
+    .imprmAreaWrap h2 {font-size: 1rem; line-height: 20px;}
+    .mainCont {max-width: 950px;}
+    .noticeItem {padding: 10px 20px;margin-bottom: 10px;}
+    .noticeTxt span {font-size: 1rem;}
+    .noticeTxt p {font-size: 0.8rem;}
+    .prtnrArea {margin-top: 60px;}
+    .prtnrWrap {max-width: 1023px;}
+    .slideBtn {left: 30px;}
+    .ftWrap {max-width: 950px;}
+    .ftWrap .adr {font-size: 0.9rem;padding-left: 30px;}
+    .ftWrap, .footer {height: 150px;}
+    .ftLogo img, .ftWaLogo img {width: 100px;}
+    /*목적 및 개요*/
+    .subVis {height: 250px;}
+    .sibVi-txt {padding: 80px 0; max-width: 900px;}
+    .sibVi-txt p {font-size: 1rem;}
+    .sibVi-txt .tit {font-size: 2.5rem;}
+    .subPageTit h2 {font-size: 1.8rem;}
+    .content, .dirMap, .pgeErr {max-width: 900px;}
+    .aboutImgTxt {width: 800px; height: 130px;}
+    .aboutImgTxtWrap h2 {font-size: 1.6rem;}
+    .aboutImgTxtWrap p {font-size: 0.8rem;}
+    .subHdTit h2 {font-size: 1.2rem;}
+    .aboutTxt p, .txtBx p, .btmTxtBx p, .tabTxt p, .crclTxt p {font-size: 0.9em; line-height: 28px;}
+    /*기초지식*/
+    .tabTxtBxWrap .tabTxTit h2 {font-size: 1.2rem;}
+    .tabBxTxt {margin-bottom: 30px;}
+    .tabBxTit {width: 120px; height: 40px;}
+    .tabBxTit h2 {line-height: 40px; font-size: 1rem;}
+    .ntrArea, .artfcArea {padding: 0 90px;}
+    .ntrArea .circle, .artfcArea .circle {width: 250px; height: 250px;}
+    .circle h3 {height: 250px;}
+    .ntrArea .txtBx h3, .artfcArea .txtBx h3 {font-size: 1rem;}
+    /*감시개요 및 역사*/
+    .tabTxtBxWrap .tabTxTit h3 {font-size: 1rem;}
+    .tabBxBgImg .imgWrap {height: 350px; padding: 0 40px;}
+    .tabBxBgImg .txtBx h2 {font-size: 1.2rem;}
+    .tabBxBgImg .txtBx p {font-size: 0.9rem;}
+    /*목적 및 법적근거*/
+    .icoFlxCont .brdrBxWrap {margin-right: 20px;}
+    .icoFlxCont .icoFlxContWrap {padding: 20px;}
+    .icoFlxCont .icoFlxContWrap p {line-height: 25px;}
+    .icoFlxCont .icoFlxContWrap img {height: 70px;}
+    /*배경 및 목적*/
+    .bckImg img {width: 33%; height: 200px; margin-right: 10px;}
+    /*시스템 구성*/
+    .inrTxtBx h3 {font-size: 1rem;}
+    .brdrBxWrap.diagramWrap .imgWrap {padding: 45px 100px;}
+    /*감시 프로그램*/
+    .tree li {margin-right: 10px;}
+    /*감시 프로그램 diagram*/
+    .srvlnOrg .org1 .org1Iner li, .srvlnOrg .org1 {margin-right: 30px;}
+    .srvlnOrg .org2 p {width: 130px;}
+    .srvlnOrg .org2 p:nth-child(3) {padding: 20px;}
+    .srvlnOrg .org1:first-child span:after {width: 558px;}
+    .srvlnOrg .org1Iner:after {width: 160px;left: calc(25% - 6px);}
+    /*분석절차 및 방법*/
+    .tabs.mblTab ul {display: grid; grid-template-columns: 1fr 1fr 1fr;}
+    .tabs.mblTab li:first-child, .tabs.mblTab li:nth-child(2) {border-bottom: 0;}
+    .anlysProBxWrap .subHdtBx {display: block;}
+    .anlysProBxWrap .brdrBxWrap {width: 420px;}
+    .anlysProBxWrap .insImg .brdrBxWrap {width: auto;}
+    .anlysProBxWrap .table-responsive {display: block;width:100%;overflow-x:auto;}
+    /*분석절차 및 방법 diagram*/
+    .envrnOrg {min-height: 900px;}
+    .envrnOrg .orgOne, .envrnOrg .orgTwo {width: 120px;height: 120px;}
+    .envrnOrg .bgBlue span {width: 550px;}
+    .envrnOrg .bgGreen span {width: 160px;}
+    .envrnOrg .orgInerWrap:nth-child(3) .bgBlue span, .envrnOrg .orgInerWrap:nth-child(4) .bgGreen span {width: 260px;}
+    .envrnOrg .orgInerWrap:nth-child(3) .bgBlue .org1:first-child span:before,.envrnOrg .orgInerWrap:nth-child(3) .bgBlue .org1:last-child span:before {background-size: 150px 25px; top: -25px;}
+    .envrnOrg .bgGreen .org1 span:before{top: -20px; height: 20px;}
+    .envrnOrg .bgGreen .arrow1, .envrnOrg .bgGreen .arrow2 {border-left: 4px solid transparent;border-right: 4px solid transparent;border-top: 4px solid #CDCDCD;}
+    .envrnOrg .orgInerWrap:nth-child(4) .bgGreen .org1 p:after {height: 20px; bottom: -20px;}
+    .envrnOrg .bgGreen .arrow2 {top: 20px;}
+    /*측정소 설치현황*/
+    .msrMapNav {padding: 0 10px;}
+    .msrMapNav li {font-size: 0.7rem;}
+    .leftCont {width: 45%;}
+    .rightCont {width: 50%;}
+    /*보고서*/
+    .countNum span {font-size: 1rem;}
+    /*관련사이트*/
+    .siteWrap {grid-template-columns: 1fr 1fr 1fr;}
+    .siteWrap .brdrBxWrap {width: 300px;}
+    /*참가신청*/
+    .tabTxtBxWrap .tabTxTit.lineT h2 {font-size: 1.5rem;}
+    .join .field {display: block;}
+    .join .field > .field {margin-left: 0; margin-top: 10px;}
+    .join .field label {margin-bottom: 10px; display: block;}
+    .join .field:not(:last-child) {margin-bottom: 10px;}
+    .join .field.adrFild .insert {margin-bottom: 10px;}
+    .insert.rcvAdr .inptBxMd {width: 300px;}
+    .insert.rcvAdr .inptBxLg, .insert textarea, .insert input[type=file], .insert .inptBxXl {width: 620px;}
+    .join .field .inptBxSm.mailAd:last-child, .antNmb {margin-top: 10px;}
+    /*자료실*/
+    .userRetrieve .field {margin: 0 20px;}
+    .userRetrieve .insert.search input {width: 250px;}
+    .userRetrieve .insert select {width: 140px;}
+    .userRetrieve .field div:first-child {min-width: 30px;}
+
+}
+@media (max-width: 1024px) {
+    /*메인*/
+    .topbanr-swiper {width: 930px;}
+    .hdrCntnr {padding: 0 20px;}
+    .useInfoBtn {margin: 0 20px;}
+    .useInfoBtn button {font-size: 0.8rem;}
+    .useInfoBtn:before {width: 30px; height: 30px; background-size: 30px 30px;}
+    .sideBtn {margin-right: 10px; margin-left: 40px;}
+    .gnb-box > li > a {margin: 0 30px;font-size: 1rem;}
+    .gnb-box > li > a > span {font-size: 1rem;}
+    .sideBtn a {padding: 9px 10px;font-size: 0.8rem;}
+    .sub-box .subTitWrap {width: 300px;}
+    .subTit h1 {font-size: 1.5rem;}
+    .subMenuWrap {grid-template-columns: 1fr 1fr;padding: 30px;}
+    .gnb-box > li:nth-child(1) .subGnb {height: 200px;}
+    .gnb-box > li:nth-child(2) .subGnb, .gnb-box > li:nth-child(4) .subGnb, .gnb-box > li:nth-child(5) .subGnb {height: 560px;}
+    .gnb-box > li:nth-child(3) .subGnb {height: 670px;}
+    .subMenuWrap > div {margin: 20px;}
+    .tglSubTitWrap {margin: 0 10px;}
+    .tglTitWrap {padding: 45px 40px;}
+    .tglSubTit a {font-size: 1rem;}
+    .tglTit h1 {font-size: 1.2rem;}
+    .visual-txt p {font-size: 1.1rem;line-height: 68px;}
+    .visual-txt .tit {font-size: 2.5rem;line-height: 50px;}
+    .visual-txt {left: 100px;top: 90px;}
+    .mainWrap .swiper-pagination {top: 320px;left: 110px;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-button-prev {top: 335px !important;}
+    .mainWrap .swiper-button-prev, .mainWrap .swiper-container-rtl .swiper-button-next {left: 320px !important;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-container-rtl .swiper-button-prev {left: 370px !important;}
+    .wrap-autoplay-control {top: 325px;left: 350px;}
+    .mainWrap .swiper-container {height: 500px;}
+    .frqntTxt {margin-right: 40px;}
+    .frqntBox {padding: 30px 40px;}
+    .frqntBtn {margin: 0 30px;}
+    .frqntBtn a {font-size: 0.9rem;}
+    .frqntBtn img {height: 50px;}
+    .mainCont .titleBar h1 {font-size: 1.2rem;}
+    .mainContWrap {padding-top: 30px;}
+    .basicKnwld, .anlysRprt {width: 250px;height: 219px;}
+    .basicKnwld a, .anlysRprt a {width: 250px;height: 180px;}
+    .imprmArea img {padding-top: 55px;}
+    .imprmAreaWrap h2 {font-size: 1rem; line-height: 20px;}
+    .mainCont {max-width: 950px;}
+    .noticeItem {padding: 10px 20px;margin-bottom: 10px;}
+    .noticeTxt span {font-size: 1rem;}
+    .noticeTxt p {font-size: 0.8rem;}
+    .prtnrArea {margin-top: 60px;}
+    .prtnrWrap {max-width: 1023px;}
+    .slideBtn {left: 30px;}
+    .ftWrap {max-width: 950px;}
+    .ftWrap .adr {font-size: 0.9rem;padding-left: 30px;}
+    .ftWrap, .footer {height: 150px;}
+    .ftLogo img, .ftWaLogo img {width: 100px;}
+    /*목적 및 개요*/
+    .subVis {height: 250px;}
+    .sibVi-txt {padding: 80px 0; max-width: 900px;}
+    .sibVi-txt p {font-size: 1rem;}
+    .sibVi-txt .tit {font-size: 2.5rem;}
+    .subPageTit h2 {font-size: 1.8rem;}
+    .content, .dirMap, .pgeErr {max-width: 900px;}
+    .aboutImgTxt {width: 800px; height: 130px;}
+    .aboutImgTxtWrap h2 {font-size: 1.6rem;}
+    .aboutImgTxtWrap p {font-size: 0.8rem;}
+    .subHdTit h2 {font-size: 1.2rem;}
+    .aboutTxt p, .txtBx p, .btmTxtBx p, .tabTxt p, .crclTxt p {font-size: 0.9em; line-height: 28px;}
+    /*기초지식*/
+    .tabTxtBxWrap .tabTxTit h2 {font-size: 1.2rem;}
+    .tabBxTxt {margin-bottom: 30px;}
+    .tabBxTit {width: 120px; height: 40px;}
+    .tabBxTit h2 {line-height: 40px; font-size: 1rem;}
+    .ntrArea, .artfcArea {padding: 0 90px;}
+    .ntrArea .circle, .artfcArea .circle {width: 250px; height: 250px;}
+    .circle h3 {height: 250px;}
+    .ntrArea .txtBx h3, .artfcArea .txtBx h3 {font-size: 1rem;}
+    /*감시개요 및 역사*/
+    .tabTxtBxWrap .tabTxTit h3 {font-size: 1rem;}
+    .tabBxBgImg .imgWrap {height: 350px; padding: 0 40px;}
+    .tabBxBgImg .txtBx h2 {font-size: 1.2rem;}
+    .tabBxBgImg .txtBx p {font-size: 0.9rem;}
+    /*목적 및 법적근거*/
+    .icoFlxCont .brdrBxWrap {margin-right: 20px;}
+    .icoFlxCont .icoFlxContWrap {padding: 20px;}
+    .icoFlxCont .icoFlxContWrap p {line-height: 25px;}
+    .icoFlxCont .icoFlxContWrap img {height: 70px;}
+    /*배경 및 목적*/
+    .bckImg img {width: 33%; height: 200px; margin-right: 10px;}
+    /*시스템 구성*/
+    .inrTxtBx h3 {font-size: 1rem;}
+    /*감시 프로그램*/
+    .tree li {margin-right: 10px;}
+    /*감시 프로그램 diagram*/
+    .srvlnOrg .org1 .org1Iner li, .srvlnOrg .org1 {margin-right: 30px;}
+    .srvlnOrg .org2 p {width: 130px;}
+    .srvlnOrg .org2 p:nth-child(3) {padding: 20px;}
+    .srvlnOrg .org1:first-child span:after {width: 558px;}
+    .srvlnOrg .org1Iner:after {width: 160px;left: calc(25% - 6px);}
+    /*분석절차 및 방법*/
+    .tabs.mblTab ul {display: grid; grid-template-columns: 1fr 1fr 1fr;}
+    .tabs.mblTab li:first-child, .tabs.mblTab li:nth-child(2) {border-bottom: 0;}
+    .anlysProBxWrap .subHdtBx {display: block;}
+    .anlysProBxWrap .brdrBxWrap {width: 420px;}
+    .anlysProBxWrap .insImg .brdrBxWrap {width: auto;}
+    .anlysProBxWrap .table-responsive {display: block;width:100%;overflow-x:auto;}
+    /*분석절차 및 방법 diagram*/
+    .envrnOrg {min-height: 900px;}
+    .envrnOrg .orgOne, .envrnOrg .orgTwo {width: 120px;height: 120px;}
+    .envrnOrg .bgBlue span {width: 550px;}
+    .envrnOrg .bgGreen span {width: 160px;}
+    .envrnOrg .orgInerWrap:nth-child(3) .bgBlue span, .envrnOrg .orgInerWrap:nth-child(4) .bgGreen span {width: 260px;}
+    .envrnOrg .orgInerWrap:nth-child(3) .bgBlue .org1:first-child span:before,.envrnOrg .orgInerWrap:nth-child(3) .bgBlue .org1:last-child span:before {background-size: 150px 25px; top: -25px;}
+    .envrnOrg .bgGreen .org1 span:before{top: -20px; height: 20px;}
+    .envrnOrg .bgGreen .arrow1, .envrnOrg .bgGreen .arrow2 {border-left: 4px solid transparent;border-right: 4px solid transparent;border-top: 4px solid #CDCDCD;}
+    .envrnOrg .orgInerWrap:nth-child(4) .bgGreen .org1 p:after {height: 20px; bottom: -20px;}
+    .envrnOrg .bgGreen .arrow2 {top: 20px;}
+    /*측정소 설치현황*/
+    .rightCont {width: 420px;}
+    .msrMapNav li {font-size: 0.7rem;}
+    /*보고서*/
+    .countNum span {font-size: 1rem;}
+    /*관련사이트*/
+    .siteWrap {grid-template-columns: 1fr 1fr 1fr;}
+    .siteWrap .brdrBxWrap {width: 300px;}
+    .siteWrap .tabBxCont {margin-bottom: 10px;}
+    /*소개*/
+    .liStTit .tabBxTxt {grid-template-columns: 1fr 3fr;}
+    .liStTit .tabBxTxt h2 {white-space: nowrap;}
+    .imgWrap img {width: 100%;}
+    .contImg img {width: 100%;}
+    .tabTxt h3 {font-size: 1rem;}
+    .stepCrcl {width: 125px; height: 125px;}
+    .stepCrcl:after {width: 25px; height: 25px; right: -55px;}
+    .tabs.mblTab3 ul {display: grid; grid-template-columns: 1fr 1fr 1fr;}
+    .tabs.mblTab3 li:first-child, .tabs.mblTab3 li:nth-child(2) {border-bottom: 0;}
+    /*소개 diagram*/
+    .rdctvOrg .org1 {margin-right: 20px;}
+    .rdctvOrg .org1 p {width: 205px;}
+    .rdctvOrg .bgGreen:after {width: 450px; left: calc(15% + 5px);}
+    /*참가신청*/
+    .tabTxtBxWrap .tabTxTit.lineT h2 {font-size: 1.5rem;}
+    .join .field {display: block;}
+    .join .field > .field {margin-left: 0; margin-top: 10px;}
+    .join .field label {margin-bottom: 10px; display: block;}
+    .join .field:not(:last-child) {margin-bottom: 10px;}
+    .join .field.adrFild .insert {margin-bottom: 10px;}
+    .insert.rcvAdr .inptBxMd {width: 300px;}
+    .insert.rcvAdr .inptBxLg, .insert textarea, .insert input[type=file], .insert .inptBxXl {width: 620px;}
+    .join .field .inptBxSm.mailAd:last-child, .antNmb {margin-top: 10px;}
+    /*모달*/
+    .modal-content {width: 80%;}
+    .slcTblmdl .modal-content {width: 75%;}
+    .slcTblmdl .field > .field {margin-left: 0}
+    .slcTblmdl .field > .field > div {min-width: 160px}
+    .slcTblmdl .mdlField .field:nth-child(2) {margin-left: 180px;}
+    .slcTblmdl .mdlField .field:nth-child(2) > div {min-width: 120px;}
+    .srvyArea .chkArea input[type=text], .srvyArea textarea {width: 400px;}
+    /*워크숍 개요*/
+    .anlysProBxWrap .brdrBxWrap.maxBx {width: 100%; padding: 20px; margin-top: 20px;}
+    .anlysProBxWrap .brdrBxWrap.maxBx .tabBxTxt { grid-template-columns: 1fr 7fr;}
+    /*워크숍 사전등록*/
+    .join .field.useYn .chkArea > div {display: flex;}
+    /*자료실*/
+    .userRetrieve .field {margin: 0 20px;}
+    .userRetrieve .insert.search input {width: 250px;}
+    .userRetrieve .insert select {width: 140px;}
+    .userRetrieve .field div:first-child {min-width: 30px;}
+
+}
+@media (max-width: 980px) {
+    .modal-content {width: 80%;}
+    .slcTblmdl .modal-content {width: 75%;height: 800px; overflow-y: auto;}
+    .slcTblmdl .modalTab .insert {width: 100%}
+    .slcTblmdl .field {display: block;}
+    .slcTblmdl .field div:first-child {margin-bottom: 10px;}
+    .slcTblmdl .field > .field, .slcTblmdl .field input {margin-left: 0;}
+    .slcTblmdl .field .mdlFlex {margin-bottom: 23px;}
+    .slcTblmdl .mdlField .field {display: block; width: 100%;}
+    .slcTblmdl .mdlField .insert {width: 100%;}
+    .slcTblmdl .mdlField .field:nth-child(2) {margin-left: 0;}
+}
+@media (max-width: 900px) {
+    /*메인*/
+    .topbanr-swiper {max-width: 700px;height: 50px;}
+    .topBanner {height: 50px;line-height: 50px;}
+    .topBanrCont h1 {font-size: 1rem;}
+    .closeBtn img {width: 15px;}
+    .topBanrBtn {display: flex;align-items: center;}
+    .topBanrBtn button {width: 100px;height: 25px;font-size: 0.6rem;}
+    .logo a {height: 22px;}
+    .hdrCntnr {padding: 0 20px;}
+    .gnb-box > li.useInfoBtn {display: none;}
+    .gnb-box > li > a > span {font-size: 0.9rem;}
+    .hdrCntnr, .gnb-box > li {height: 70px;}
+    .gnb-box > li > a {line-height: 70px;}
+    .hdrCntnr .logo img {width: 100px;}
+    .sideBtn {margin-left: 20px; display: contents;}
+    .hdMenu {padding-left: 20px;}
+    .subGnb {top: 70px;}
+    .sub-box .subTitWrap {width: 200px;}
+    .subTit {padding: 40px;}
+    .subTit h1 {font-size: 1.1rem;line-height: 25px;}
+    .subTit p {font-size: 0.8rem;}
+    .subTitBx {width: 190px;height: 40px;margin-bottom: 5px;}
+    .subMenuBx {line-height: 25px;}
+    .subTitBx a {height: 40px;line-height: 40px;}
+    .subTitBx span {font-size: 0.8rem;}
+    .subTitBx img {top: 15px;}
+    .subMenuBx a {font-size: 0.8rem;line-height: 0;white-space: nowrap;}
+    .subMenuWrap {grid-template-columns: 1fr 1fr;padding: 20px;height: 0;}
+    .gnb-box > li > a {margin: 0 8px;font-size: 1rem;}
+    .gnb-box > li:nth-child(1) .subGnb {height: 150px;}
+    .gnb-box > li:nth-child(2) .subGnb, .gnb-box > li:nth-child(4) .subGnb, .gnb-box > li:nth-child(5) .subGnb {height: 400px;}
+    .gnb-box > li:nth-child(3) .subGnb {height: 470px;}
+    .subMenuWrap > div {margin: 15px;}
+    .snbMenu.sticky {top: 70px;}
+    .useInfoBtn {margin: 0 10px;}
+    .tglSubTitWrap {margin: 0 10px;}
+    .tglTitWrap {padding: 45px 40px;}
+    .tglSubTit a {font-size: 0.8rem;}
+    .tglSubBx a {font-size: 0.75rem;}
+    .tglTit h1 {font-size: 0.9rem;}
+    .visual-txt p {font-size: 0.9rem;line-height: 30px;}
+    .visual-txt .tit {font-size: 2rem;line-height: 40px;}
+    .visual-txt {left: 100px;top: 90px;}
+    .mainWrap .swiper-pagination {top: 250px;left: 110px;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-button-prev {top: 265px !important;}
+    .mainWrap .swiper-button-prev, .mainWrap .swiper-container-rtl .swiper-button-next {left: 320px !important;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-container-rtl .swiper-button-prev {left: 370px !important;}
+    .wrap-autoplay-control {top: 255px;left: 350px;}
+    .mainWrap .swiper-container {height: 400px;}
+    .frqntMenu {margin-top: -80px;}
+    .frqntBox {padding: 30px 40px;}
+    .frqntBtn {margin: 0 20px;}
+    .frqntBtn a {font-size: 0.8rem;}
+    .frqntBtn img {height: 50px;}
+    .frqntTxt {margin-right: 0; width: 25%;}
+    .frqntTxt h1 {font-size: 1.2rem;}
+    .mainCont .titleBar h1 {font-size: 1rem;line-height: 40px;}
+    .mainContWrap {padding-top: 40px;max-width: 700px;margin: 0 auto;}
+    .basicKnwld, .anlysRprt {width: 180px;height: 179px;}
+    .basicKnwld a, .anlysRprt a {width: 180px;height: 179px;}
+    .imprmArea img {padding-top: 40px;}
+    .imprmAreaWrap h2 {font-size: 0.9rem;}
+    .imprmAreaWrap p {font-size: 0.7rem;}
+    .imprmAreaWrap h2 {line-height: 10px;}
+    .mainCont {max-width: 950px;}
+    .noticeItem {padding: 6px 20px;margin-bottom: 5px;}
+    .noticeIcon {margin-top: 10px;}
+    .noticeIcon img {width: 20px;}
+    .noticeTxt span {font-size: 0.9rem;}
+    .noticeTxt p {font-size: 0.7rem;}
+    .prtnrArea {margin-top: 60px;}
+    .prtnrWrap {max-width: 767px;}
+    .slideBtn {left: 30px;}
+    .prtnrWrap .swiper-container img {height: 35px;}
+    .ftWrap {max-width: 950px;}
+    .ftLogo img {height: 20px;padding-left: 20px;}
+    .ftWaLogo img {height: 60px;padding-right: 20px;}
+    .ftWrap .adr {font-size: 0.8rem;padding-left: 30px;width: 530px;}
+    .ftWrap, .footer {height: 100px;}
+}
+@media (max-width: 835px) {
+    /*측정소 설치현황*/
+    .msrMapArea {height: auto;position: relative; padding-top: 300px;}
+    .mstTxtWrap {position: absolute; top: 0; left: 0;}
+    .mstTxtWrap h2 {font-size: 1.3rem;}
+    .leftCont,.rightCont, .msrMapDtl {width: 100%;}
+    .msrMapNav li {margin: 0 55px; font-size: 1rem;}
+    .msrMapDtlWrap {margin-top: 30px;}
+}
+@media (max-width: 768px) {
+    /*메인*/
+    .userTgleWrap .useIco:before {width: 40px; height: 40px; background-size: 40px 40px;}
+    .userTgleWrap .tglInfo span {font-size: 1rem;}
+    .userTgleWrap .tglInfo p, .userTgleWrap .tglBtnArea li {font-size: 0.8rem;}
+    .topbanr-swiper {max-width: 700px;height: 50px;}
+    .topBanner {height: 50px;line-height: 50px;}
+    .topBanrCont h1 {font-size: 1rem;}
+    .closeBtn img {width: 15px;}
+    .topBanrBtn {display: flex;align-items: center;}
+    .topBanrBtn button {width: 100px;height: 25px;font-size: 0.6rem;}
+    .logo a {height: 22px;}
+    .hdrCntnr {padding: 0 20px;}
+    .gnb-box > li.useInfoBtn {display: none;}
+    .gnb-box > li > a > span {font-size: 0.9rem;}
+    .hdrCntnr, .gnb-box > li {height: 70px;}
+    .gnb-box > li > a {line-height: 70px;}
+    .hdrCntnr .logo img {width: 100px;}
+    .sideBtn {margin-left: 20px; display: contents;}
+    .hdMenu {padding-left: 20px;}
+    .subGnb {top: 70px;}
+    .sub-box .subTitWrap {width: 200px;}
+    .subTit {padding: 40px;}
+    .subTit h1 {font-size: 1.1rem;line-height: 25px;}
+    .subTit p {font-size: 0.8rem;}
+    .subTitBx {width: 190px;height: 40px;margin-bottom: 5px;}
+    .subMenuBx {line-height: 25px;}
+    .subTitBx a {height: 40px;line-height: 40px;}
+    .subTitBx span {font-size: 0.8rem;}
+    .subTitBx img {top: 15px;}
+    .subMenuBx a {font-size: 0.8rem;line-height: 0;white-space: nowrap;}
+    .subMenuWrap {grid-template-columns: 1fr 1fr;padding: 20px;height: 0;}
+    .gnb-box > li > a {margin: 0 8px;font-size: 1rem;}
+    .gnb-box > li:nth-child(1) .subGnb {height: 150px;}
+    .gnb-box > li:nth-child(2) .subGnb, .gnb-box > li:nth-child(4) .subGnb, .gnb-box > li:nth-child(5) .subGnb {height: 400px;}
+    .gnb-box > li:nth-child(3) .subGnb {height: 470px;}
+    .subMenuWrap > div {margin: 15px;}
+    .snbMenu.sticky {top: 70px;}
+    .useInfoBtn {margin: 0 10px;}
+    .tglSubTitWrap {margin: 0 10px;}
+    .tglTitWrap {padding: 45px 40px;}
+    .tglSubTit a {font-size: 0.8rem;}
+    .tglSubBx a {font-size: 0.75rem;}
+    .tglTit h1 {font-size: 0.9rem;}
+    .visual-txt p {font-size: 0.9rem;line-height: 30px;}
+    .visual-txt .tit {font-size: 2rem;line-height: 40px;}
+    .visual-txt {left: 100px;top: 90px;}
+    .mainWrap .swiper-pagination {top: 250px;left: 110px;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-button-prev {top: 265px !important;}
+    .mainWrap .swiper-button-prev, .mainWrap .swiper-container-rtl .swiper-button-next {left: 320px !important;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-container-rtl .swiper-button-prev {left: 370px !important;}
+    .wrap-autoplay-control {top: 255px;left: 350px;}
+    .mainWrap .swiper-container {height: 400px;}
+    .frqntMenu {margin-top: -80px;}
+    .frqntBox {padding: 30px 40px;}
+    .frqntBtn {margin: 0 20px;}
+    .frqntBtn a {font-size: 0.8rem;}
+    .frqntBtn img {height: 50px;}
+    .frqntTxt {margin-right: 0; width: 25%;}
+    .frqntTxt h1 {font-size: 1.2rem;}
+    .mainCont .titleBar h1 {font-size: 1rem;line-height: 40px;}
+    .mainContWrap {padding-top: 40px;max-width: 700px;margin: 0 auto;}
+    .basicKnwld, .anlysRprt {width: 180px;height: 179px;}
+    .basicKnwld a, .anlysRprt a {width: 180px;height: 179px;}
+    .imprmArea img {padding-top: 40px;}
+    .imprmAreaWrap h2 {font-size: 0.9rem;}
+    .imprmAreaWrap p {font-size: 0.7rem;}
+    .imprmAreaWrap h2 {line-height: 10px;}
+    .mainCont {max-width: 950px;}
+    .noticeItem {padding: 6px 20px;margin-bottom: 5px;}
+    .noticeIcon {margin-top: 10px;}
+    .noticeIcon img {width: 20px;}
+    .noticeTxt span {font-size: 0.9rem;}
+    .noticeTxt p {font-size: 0.7rem;}
+    .prtnrArea {margin-top: 60px;}
+    .prtnrWrap {max-width: 767px;}
+    .slideBtn {left: 30px;}
+    .prtnrWrap .swiper-container img {height: 35px;}
+    .ftWrap {max-width: 950px;}
+    .ftLogo img {height: 20px;padding-left: 20px;}
+    .ftWaLogo img {height: 60px;padding-right: 20px;}
+    .ftWrap .adr {font-size: 0.8rem;padding-left: 30px;width: 530px;}
+    .ftWrap, .footer {height: 100px;}
+    /*목적 및 개요*/
+    .subVis {height: 200px;}
+    .sibVi-txt {padding: 60px 0; max-width: 680px;}
+    .sibVi-txt p {font-size: 0.8rem; letter-spacing: 15px;}
+    .sibVi-txt .tit {font-size: 2.3rem;}
+    .subPageTit h2 {font-size: 1.6rem;}
+    .snbMenu {height: 50px;}
+    .snbMenuWrap .snbBtn {width: 50px; height: 50px;}
+    .snbMenuWrap .snbMenuDrDw {height: 50px; line-height: 50px; font-size: 0.9rem;}
+    .snbMenuWrap .snbMenuDrDw span {height: 50px;}
+    .content, .dirMap, .pgeErr {max-width: 700px;}
+    .aboutImgTxt {width: 600px; height: 100px;}
+    .aboutImgTxtWrap {padding: 10px 0;}
+    .aboutImgTxtWrap h2 {font-size: 1.4rem;}
+    .aboutImgTxtWrap p {font-size: 0.7rem;}
+    .aboutTxtBxWrap .subHdtBx {padding: 20px 10px;}
+    .subHdTit h2 {font-size: 1.1rem;}
+    .subPageWrap {padding: 40px 0;}
+    .aboutTxt p, .txtBx p, .btmTxtBx p, .tabTxt p, .crclTxt p {font-size: 0.95rem; line-height: 28px;}
+    /*기초지식*/
+    .tabTxtBxWrap .tabTxTit h2 {font-size: 1.2rem;}
+    .imgWrap img {width: 100%;}
+    .tabBxTxt {margin-bottom: 30px;}
+    .tabBxTit {width: 120px; height: 40px; margin-right: 40px;}
+    .tabBxTit h2 {line-height: 40px; font-size: 1rem;}
+    .ntrArea, .artfcArea {padding: 0 70px;}
+    .ntrArea .circle, .artfcArea .circle {width: 200px; height: 200px;}
+    .circle h3 {height: 200px;}
+    .ntrArea .txtBx h3, .artfcArea .txtBx h3 {font-size: 1.1rem;}
+    /*감시개요 및 역사*/
+    .hisBgImg .imgWrap .txtBx h2 {font-size: 2rem;}
+    .hisHdTit h2 {font-size: 1.8rem; width: 200px;}
+    .tabTxtBxWrap .tabTxTit h3 {font-size: 1rem;}
+    .tabBxBgImg .imgWrap {height: 270px; padding: 0 30px;}
+    .tabBxBgImg .txtBx h2 {font-size: 1rem;}
+    .tabBxBgImg .txtBx p {font-size: 0.8rem; line-height: 25px;}
+    /*목적 및 법적근거*/
+    .icoFlxCont .brdrBxWrap {margin-right: 20px;}
+    .icoFlxCont .icoFlxContWrap {padding: 20px;}
+    .icoFlxCont .icoFlxContWrap p {line-height: 25px;}
+    .icoFlxCont .icoFlxContWrap h3 {font-size: 1rem;}
+    /*배경 및 목적*/
+    .bckImg img:nth-child(2) {display: none;}
+    .bckImg img {width: 50%; height: 200px; margin-right: 15px;}
+    /*시스템 구성*/
+    /*프로그램*/
+    .schdlCnt {padding: 15px 30px;}
+    /*감시 프로그램 diagram*/
+    .srvlnOrg{min-height: 1500px;}
+    .srvlnOrg .orgOne:after{height: 260px;}
+    .srvlnOrg .orgTwo ul {display: block;}
+    .srvlnOrg .bgBlue span {margin: 20px 0;}
+    .srvlnOrg .org1:first-child span {margin: 0 auto 20px;}
+    .srvlnOrg .org1 .org1Iner li, .srvlnOrg .org1, .srvlnOrg .bgBlue span , .srvlnOrg .org2 p {width: 100%;}
+    .srvlnOrg .bgBlue span:before, .srvlnOrg .org1:first-child span:after, .srvlnOrg .org1Iner:after{width: 0;}
+    .srvlnOrg .org1 .org1Iner li:last-child {margin-top: 20px;}
+    .srvlnOrg .bgBlue .arrow1, .srvlnOrg .bgBlue .arrow2 {display: none;}
+    .srvlnOrg .org2 p:nth-child(2):before {top: -20px;}
+    .srvlnOrg .org1:nth-child(2) .org2 p:nth-child(2):before, .srvlnOrg .org1:nth-child(3) .org2 p:nth-child(2):before {height: 20px;top: -20px;}
+    /*분석절차 및 방법*/
+    .tabs.mblTab ul {display: grid; grid-template-columns: 1fr 1fr 1fr;}
+    .tabs.mblTab li:first-child, .tabs.mblTab li:nth-child(2) {border-bottom: 0;}
+    .tabs.mblTab li {min-width: 200px;}
+    .anlysProBxWrap .subHdtBx {display: block;}
+    .anlysProBxWrap .brdrBxWrap {width: 700px;}
+    .anlysProBxWrap .tabBxCont.mr_45{margin-right: 0 !important;}
+    /*분석절차 및 방법 diagram*/
+    .envrnOrg {min-height: 900px;}
+    .envrnOrg .orgOne, .envrnOrg .orgTwo {width: 120px;height: 120px;}
+    .envrnOrg .org1 p {padding: 15px;}
+    .envrnOrg .bgBlue span {width: 400px;}
+    .envrnOrg .bgGreen span {width: 110px;}
+    .envrnOrg .orgInerWrap:nth-child(3) .bgBlue span, .envrnOrg .orgInerWrap:nth-child(4) .bgGreen span {width: 190px;}
+    .envrnOrg .orgInerWrap:nth-child(3) .bgBlue .org1:first-child span:before,.envrnOrg .orgInerWrap:nth-child(3) .bgBlue .org1:last-child span:before {background-size: 100px 25px; top: -25px;}
+    .envrnOrg .orgInerWrap:nth-child(3) .bgBlue .org1:last-child span:before {left: -20%;}
+    .envrnOrg .orgInerWrap:nth-child(3) .bgBlue .org1:first-child span:before {left: 20%;}
+    .envrnOrg .bgGreen .org1 span:before{top: -20px; height: 20px;}
+    .envrnOrg .bgGreen .arrow1, .envrnOrg .bgGreen .arrow2 {border-left: 3px solid transparent;border-right: 3px solid transparent;border-top: 3px solid #CDCDCD;}
+    .envrnOrg .orgInerWrap:nth-child(4) .bgGreen .org1 p:after {height: 20px; bottom: -20px;}
+    .envrnOrg .bgGreen .arrow2 {top: 20px;}
+    /*측정소 설치현황*/
+    .msrMapArea {height: auto;position: relative;}
+    .mstTxtWrap {position: absolute; top: 0; left: 0;}
+    .mstTxtWrap h2 {font-size: 1.3rem;}
+    .msrMapNav li {margin: 0 25px; font-size: 1rem;}
+    .msrMapDtlWrap {margin-top: 30px;}
+    /*보고서*/
+    .countNum span {font-size: 0.8rem;}
+    .retrieve .insert.search input {width: 250px;}
+    .retrieve .insert select {width: 130px;}
+    .tabs.mblTab2 ul {display: grid; grid-template-columns: 1fr 1fr;}
+    .tabs.mblTab2 li:first-child {border-bottom: 0;}
+    /*관련사이트*/
+    .siteWrap {grid-template-columns: 1fr 1fr 1fr;}
+    .siteWrap .brdrBxWrap {width: 233px;}
+    .siteWrap .tabBxCont {margin-bottom: 10px;}
+    /*소개*/
+    .liStTit .tabBxTxt {grid-template-columns: 1fr 2fr;}
+    .liStTit .tabBxTxt h2 {white-space: nowrap;}
+    .contImg img {width: 100%;}
+    .tabTxt h3 {font-size: 1rem;}
+    .stepCrcl {width: 125px; height: 125px; margin: 0 20px;}
+    .stepCrcl:after {width: 20px; height: 20px; right: -27px;}
+    .dspTbl2 {display: table;}
+    .tabs.mblTab3 ul {display: grid; grid-template-columns: 1fr 1fr;}
+    .tabs.mblTab3 li:first-child, .tabs.mblTab3 li:nth-child(2), .tabs.mblTab3 li:nth-child(3) {border-bottom: 0;}
+    .tabs.mblTab3 li:first-child, .tabs.mblTab3 li:nth-child(3) {border-right: 0;}
+    /*소개 diagram*/
+    .rdctvOrg .org1 {margin-right: 20px;}
+    .rdctvOrg .org1 p {width: 205px;}
+    .rdctvOrg .bgGreen:after {width: 450px; left: calc(15% + 5px);}
+    /*참가신청*/
+    .tabTxtBxWrap .tabTxTit.lineT h2 {font-size: 1.5rem;}
+    .join .field {display: block;}
+    .join .field > .field {margin-left: 0; margin-top: 10px;}
+    .join .field label {margin-bottom: 10px; display: block;}
+    .join .field:not(:last-child) {margin-bottom: 10px;}
+    .join .field.adrFild .insert {margin-bottom: 10px;}
+    .join .field .inptBxXs.mailAd {width: 150px;}
+    .join .field .inptBxSm.mailAd {width: 150px;}
+    .insert.rcvAdr .inptBxMd {width: 200px;}
+    .insert.rcvAdr .inptBxLg, .insert textarea, .insert input[type=file], .insert .inptBxXl{width: 520px;}
+    .join .field .inptBxSm.mailAd:last-child, .antNmb {margin-top: 10px;}
+    /*모달*/
+    .modal-content {width: 80%;}
+    .slcTblmdl .modal-content {width: 75%;height: 800px; overflow-y: auto;}
+    .slcTblmdl .modalTab .insert {width: 100%}
+    .slcTblmdl .field {display: block;}
+    .slcTblmdl .field div:first-child {margin-bottom: 10px;}
+    .slcTblmdl .field > .field, .slcTblmdl .field input {margin-left: 0;}
+    .slcTblmdl .field .mdlFlex {margin-bottom: 23px;}
+    .slcTblmdl .mdlField .field {display: block; width: 100%;}
+    .slcTblmdl .mdlField .insert {width: 100%;}
+    .slcTblmdl .mdlField .field:nth-child(2) {margin-left: 0;}
+    .srvyArea .chkArea input[type=text], .srvyArea textarea {width: 280px;}
+    /*워크숍 개요*/
+    .anlysProBxWrap .brdrBxWrap.maxBx {width: 100%; padding: 20px; margin-top: 20px;}
+    .anlysProBxWrap .brdrBxWrap.maxBx .tabBxTxt { grid-template-columns: 1fr 7fr;}
+    /*워크숍 사전등록*/
+    .join .field.useYn .chkArea > div {display: flex;}
+    /*오시는 길*/
+    .dirTit {margin-right: 20px;}
+    .dirTit h1 {font-size: 1rem;}
+    /*자료실*/
+    .userRetrieve .retrvWrap {height: auto;}
+    .userRetrieve .field {margin: 0 20px; display: inline-block;}
+    .userRetrieve .field label {margin-bottom: 10px; display: block;}
+    .userRetrieve .insert.search input {width: 250px;}
+    .userRetrieve .insert select {width: 140px;}
+    .userRetrieve .insert input, .userRetrieve .insert select {margin-left: 0;}
+    /*로그인*/
+    .lgnTxtBxWrap{width: auto;}
+    .loginArea .insert input {width: 280px;}
+    .loginNav {width: 440px;}
+    /*페이지 오류 안내*/
+    .pgeErrWrap {padding: 100px 20px;}
+    /*분석결과제출*/
+    .slctTable .insert .mgnfr {padding-right: 30px;}
+}
+@media (max-width: 737px) {
+    /*메인*/
+    .topbanr-swiper {max-width: 700px;height: 50px;}
+    .topBanner {height: 50px;line-height: 50px;}
+    .topBanrCont h1 {font-size: 1rem;}
+    .closeBtn img {width: 15px;}
+    .topBanrBtn {display: flex;align-items: center;}
+    .topBanrBtn button {width: 100px;height: 25px;font-size: 0.6rem;}
+    .logo a {height: 22px;}
+    .hdrCntnr {padding: 0 20px;}
+    .gnb-box > li.useInfoBtn {display: none;}
+    .gnb-box > li > a > span {font-size: 0.9rem;}
+    .hdrCntnr, .gnb-box > li {height: 70px;}
+    .gnb-box > li > a {line-height: 70px;}
+    .hdrCntnr .logo img {width: 100px;}
+    .sideBtn {margin-left: 20px; display: contents;}
+    .hdMenu {padding-left: 20px;}
+    .subGnb {top: 70px;}
+    .sub-box .subTitWrap {width: 200px;}
+    .subTit {padding: 40px;}
+    .subTit h1 {font-size: 1.1rem;line-height: 25px;}
+    .subTit p {font-size: 0.8rem;}
+    .subTitBx {width: 190px;height: 40px;margin-bottom: 5px;}
+    .subMenuBx {line-height: 25px;}
+    .subTitBx a {height: 40px;line-height: 40px;}
+    .subTitBx span {font-size: 0.8rem;}
+    .subTitBx img {top: 15px;}
+    .subMenuBx a {font-size: 0.8rem;line-height: 0;white-space: nowrap;}
+    .subMenuWrap {grid-template-columns: 1fr 1fr;padding: 20px;height: 0;}
+    .gnb-box > li > a {margin: 0 8px;font-size: 1rem;}
+    .gnb-box > li:nth-child(1) .subGnb {height: 150px;}
+    .gnb-box > li:nth-child(2) .subGnb, .gnb-box > li:nth-child(4) .subGnb, .gnb-box > li:nth-child(5) .subGnb {height: 400px;}
+    .gnb-box > li:nth-child(3) .subGnb {height: 470px;}
+    .subMenuWrap > div {margin: 15px;}
+    .snbMenu.sticky {top: 70px;}
+    .useInfoBtn {margin: 0 10px;}
+    .tglSubTitWrap {margin: 0 10px;}
+    .tglTitWrap {padding: 45px 40px;}
+    .tglSubTit a {font-size: 0.8rem;}
+    .tglSubBx a {font-size: 0.75rem;}
+    .tglTit h1 {font-size: 0.9rem;}
+    .visual-txt p {font-size: 0.9rem;line-height: 30px;}
+    .visual-txt .tit {font-size: 2rem;line-height: 40px;}
+    .visual-txt {left: 100px;top: 90px;}
+    .mainWrap .swiper-pagination {top: 250px;left: 110px;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-button-prev {top: 265px !important;}
+    .mainWrap .swiper-button-prev, .mainWrap .swiper-container-rtl .swiper-button-next {left: 320px !important;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-container-rtl .swiper-button-prev {left: 370px !important;}
+    .wrap-autoplay-control {top: 255px;left: 350px;}
+    .mainWrap .swiper-container {height: 400px;}
+    .frqntMenu {margin-top: -80px;}
+    .frqntBox {padding: 30px 40px;}
+    .frqntBtn {margin: 0 20px;}
+    .frqntBtn a {font-size: 0.8rem;}
+    .frqntBtn img {height: 50px;}
+    .frqntTxt {margin-right: 0; width: 25%;}
+    .frqntTxt h1 {font-size: 1.2rem;}
+    .mainCont .titleBar h1 {font-size: 1rem;line-height: 40px;}
+    .mainContWrap {padding-top: 40px;max-width: 700px;margin: 0 auto;}
+    .basicKnwld, .anlysRprt {width: 180px;height: 179px;}
+    .basicKnwld a, .anlysRprt a {width: 180px;height: 179px;}
+    .imprmArea img {padding-top: 40px;}
+    .imprmAreaWrap h2 {font-size: 0.9rem;}
+    .imprmAreaWrap p {font-size: 0.7rem;}
+    .imprmAreaWrap h2 {line-height: 10px;}
+    .mainCont {max-width: 950px;}
+    .noticeItem {padding: 6px 20px;margin-bottom: 5px;}
+    .noticeIcon {margin-top: 10px;}
+    .noticeIcon img {width: 20px;}
+    .noticeTxt span {font-size: 0.9rem;}
+    .noticeTxt p {font-size: 0.7rem;}
+    .prtnrArea {margin-top: 60px;}
+    .prtnrWrap {max-width: 767px;}
+    .slideBtn {left: 30px;}
+    .prtnrWrap .swiper-container img {height: 35px;}
+    .ftWrap {max-width: 950px;}
+    .ftLogo img {height: 20px;padding-left: 20px;}
+    .ftWaLogo img {height: 60px;padding-right: 20px;}
+    .ftWrap .adr {font-size: 0.8rem;padding-left: 30px;width: 530px;}
+    .ftWrap, .footer {height: 100px;}
+}
+@media (max-width: 576px) {
+    /*메인*/
+    .userTgle, .mainPopup {display: none;}
+    .topbanr-swiper {max-width: 460px;height: 75px;}
+    .swiper-wrapper .topBanrCont {align-items: inherit;padding-top: 10px;}
+    .topBanner {height: 75px;line-height: 75px;}
+    .topBanrCont h1 {font-size: 1rem;}
+    .closeBtn img {width: 15px;}
+    .closeBtn {top: 10px;}
+    .closeBtn span {display: none;}
+    .topbanrNav {position: relative;left: 45%;bottom: 55px;}
+    .topbanrNav .swiper-pagination-fraction {bottom: -38px;}
+    .topBanrBtn {display: flex;align-items: inherit;padding-top: 25px;}
+    .topBanrBtn button {width: 100px;height: 25px;font-size: 0.6rem;}
+    .header .mobile-gnb .sidebar-btn {height: 60px;}
+    .hdrCntnr {padding: 0 20px;border-bottom: 0;height: 60px;}
+    .hdrCntnr .logo img {width: 100px;}
+    .sideBtn {margin-left: 20px; right: 0;}
+    .sideBtn a {font-size: 0.8rem;padding: 7px 15px;}
+    .sideBtn {margin-right: 0;padding-left: 100px;}
+    .hdMenu, .toggleBtn {display: none;}
+    .header .mobile-gnb {display: block;}
+    .visual-txt p {font-size: 0.8rem;line-height: 30px;}
+    .visual-txt .tit {font-size: 1.8rem;line-height: 40px;}
+    .visual-txt {left: 40px;top: 50px;}
+    .mainWrap .swiper-pagination {top: 210px;left: 40px;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-button-prev {top: 225px !important;}
+    .mainWrap .swiper-pagination-bullet {width: 30px !important;}
+    .mainWrap .swiper-button-prev, .mainWrap .swiper-container-rtl .swiper-button-next {left: 180px !important;}
+    .mainWrap .swiper-button-next:after, .mainWrap .swiper-button-prev:after {font-size: 13px;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-container-rtl .swiper-button-prev {left: 220px !important;}
+    .wrap-autoplay-control {top: 216px;left: 207px;height: 15px;}
+    .wrap-autoplay-control button[aria-pressed="false"]:before {width: 9px; height: 9px;}
+    .wrap-autoplay-control button[aria-pressed="true"]:before {top:4px; left: 4px; border-top: 5px solid transparent; border-left: 12px solid #fff; border-bottom: 5px solid transparent;}
+    .mainWrap .swiper-container {height: 280px;}
+    .useInfoBtn {display: none;}
+    .frqntMenu {margin-top: 0;}
+    .frqntBox {padding: 30px;display: inherit;}
+    .frqntBtn {margin: 40px;display: inline-block;width: 166px;}
+    .frqntBtn a {font-size: 1.1rem;}
+    .frqntBtn:nth-child(2) {position: relative;}
+    .frqntBtn:nth-child(2):before {content: "";border-bottom: 1px solid #FFFFFF4C;width: 420px;position: absolute;left: 0;top: 155px;}
+    .frqntBtn:nth-child(2):after {content: "";border-right: 1px solid #FFFFFF4C;height: 320px;position: absolute;left: 210px;top: 0;}
+    .frqntBtn img {height: 70px;}
+    .frqntTxt {margin-right: 0; width: 100%;}
+    .frqntTxt p {display: none;}
+    .frqntTxt h1 {font-size: 1.2rem;}
+    .mainCont .titleBar h1 {font-size: 1.2rem;line-height: 40px;}
+    .mainContWrap {display: inherit;padding-top: 30px;}
+    .basicKnwld, .anlysRprt {width: 420px;height: 179px;margin-bottom: 20px;}
+    .basicKnwld a, .anlysRprt a {width: 420px;height: 179px;}
+    .imprmArea {display: inherit;}
+    .imprmArea img {padding-top: 50px;}
+    .imprmAreaWrap h2 {font-size: 1.1rem;}
+    .imprmAreaWrap p {display: none;}
+    .imprmAreaWrap h2 {line-height: 30px;}
+    .mainCont {max-width: 420px;}
+    .noticeAreaWrap {margin-top: 20px;display: inline-block;}
+    .noticeItem {padding: 25px;margin-bottom: 10px;}
+    .noticeIcon {margin-top: 10px;}
+    .noticeIcon img {width: 30px;}
+    .noticeTxt span {font-size: 1.2rem;}
+    .noticeTxt p {font-size: 1rem;}
+    .noticeItem .moreIcon {display: none;}
+    .prtnrArea {margin-top: 60px;}
+    .prtnrWrap {max-width: 479px;}
+    .slideBtn {display: none;}
+    .prtnrWrap .swiper-container {margin-left: 0;}
+    .prtnrWrap .swiper-container img {height: 40px;}
+    .ftWrap {max-width: 950px;}
+    .ftLogo img, .ftWaLogo img {display: none;}
+    .ftWrap .adr {font-size: 0.9rem;padding-left: 30px;width: 450px;}
+    .ftWrap, .footer {height: 150px;}
+    /*목적 및 개요*/
+    .subVis {height: 150px;}
+    .sibVi-txt {padding: 45px 0; max-width: 400px;}
+    .sibVi-txt p {font-size: 0.7rem; letter-spacing: 10px;}
+    .sibVi-txt .tit {font-size: 2rem;}
+    .subPageTit h2 {font-size: 1.4rem;}
+    .snbMenu {display: none;}
+    .content.main {max-width: 100%;}
+    .content, .dirMap, .pgeErr {max-width: 440px;}
+    .subPageWrap {padding: 30px 0;}
+    .aboutImgTxt {width: 440px; height: 100px;}
+    .aboutImgTxtWrap {padding: 8px 10px; margin-top: -10px;}
+    .aboutImgTxtWrap h2 {font-size: 1.2rem; padding: 5px 0;}
+    .aboutImgTxtWrap p {font-size: 0.8rem;}
+    .aboutTxtBxWrap .subHdtBx {padding: 20px 10px;}
+    .subHdTit h2 {font-size: 1.2rem;}
+    .aboutTxt p, .txtBx p, .btmTxtBx p, .tabTxt p, .crclTxt p {font-size: 0.9rem; line-height: 28px;}
+    /*기초지식*/
+    .tabTxtBxWrap .tabTxTit h2 {font-size: 1.2rem;}
+    .imgWrap img {width: 100%;}
+    .tabs li {min-width: 180px;}
+    .tabs2 span {font-size: 1.8rem; line-height: 10px;}
+    .tabs2 p {font-size: 0.9rem; height: 40px;}
+    .tabs2 li {padding: 40px 0;}
+    .tabBxTxt {margin-bottom: 30px; display: inline-block;}
+    .tabBxTit {width: 120px; height: 30px; margin-bottom: 10px;}
+    .tabBxTit h2 {line-height: 30px; font-size: 1rem;}
+    .colrStTit .tabBxTit h2 {white-space: nowrap;}
+    .table-responsive table {font-size: 0.9rem;}
+    .ntrArea, .artfcArea {padding: 0 40px;}
+    .ntrArea .circle, .artfcArea .circle {width: 150px; height: 150px;}
+    .circle h3 {height: 150px;}
+    .ntrArea .txtBx h3, .artfcArea .txtBx h3 {font-size: 1rem;}
+    /*감시개요 및 역사*/
+    .hisBgImg .imgWrap {height: 220px;}
+    .hisBgImg .imgWrap .txtBx p {font-size: 0.9rem;}
+    .hisBgImg .imgWrap .txtBx h2 {font-size: 0.8rem;}
+    .subHdtBx {display: inline-block;}
+    .subHdtBx.mblGrid {display: grid;}
+    .hisHdTit h2 {font-size: 1.8rem; width: 200px;}
+    .tabTxtBxWrap .tabTxTit h3 {font-size: 1rem;}
+    .tabBxBgImg .imgWrap {height: 400px; padding: 0 30px;}
+    .tabBxBgImg .txtBx h2 {font-size: 1rem;}
+    .tabBxBgImg .txtBx p {font-size: 0.8rem; line-height: 25px;}
+    /*목적 및 법적근거*/
+    .icoFlxCont {display: inline-block;}
+    .icoFlxCont .brdrBxWrap {height: 250px; margin-bottom: 20px; margin-right: 0;}
+    .icoFlxCont .icoFlxContWrap {padding: 20px;}
+    .icoFlxCont .icoFlxContWrap p {line-height: 25px;}
+    .icoFlxCont .icoFlxContWrap h3 {font-size: 1rem;}
+    /*배경 및 목적*/
+    .bckImg img:nth-child(2) {display: none;}
+    .bckImg img {width: 50%; height: 170px; margin-right: 10px;}
+    /*시스템 구성*/
+    .brdrBxWrap.diagramWrap .imgWrap {padding: 45px;}
+    /*프로그램*/
+    .schdlCnt {display: grid; padding: 15px 30px;}
+    .schdlTit {white-space: nowrap;}
+    .schdlBtn {right: 10px;}
+    .schdlCnt button {margin: 0; background-size: 25px 25px;}
+    /*감시 프로그램*/
+    .inrTxtBx h3 {font-size: 0.9rem;}
+    /*감시 프로그램 diagram*/
+    .srvlnOrg{min-height: 1500px;}
+    .srvlnOrg .orgOne:after{height: 260px;}
+    .srvlnOrg .orgTwo ul {display: block;}
+    .srvlnOrg .bgBlue span {margin: 20px 0;}
+    .srvlnOrg .org1:first-child span {margin: 0 auto 20px;}
+    .srvlnOrg .org1 .org1Iner li, .srvlnOrg .org1, .srvlnOrg .bgBlue span , .srvlnOrg .org2 p {width: 100%;}
+    .srvlnOrg .bgBlue span:before, .srvlnOrg .org1:first-child span:after, .srvlnOrg .org1Iner:after{width: 0;}
+    .srvlnOrg .org1 .org1Iner li:last-child {margin-top: 20px;}
+    .srvlnOrg .bgBlue .arrow1, .srvlnOrg .bgBlue .arrow2 {display: none;}
+    .srvlnOrg .org2 p:nth-child(2):before {top: -20px;}
+    .srvlnOrg .org1:nth-child(2) .org2 p:nth-child(2):before, .srvlnOrg .org1:nth-child(3) .org2 p:nth-child(2):before {height: 20px;top: -20px;}
+    /*분석절차 및 방법*/
+    .tabs.mblTab ul {display: grid; grid-template-columns: 1fr 1fr 1fr;}
+    .tabs.mblTab li:first-child, .tabs.mblTab li:nth-child(2) {border-bottom: 0;}
+    .tabs.mblTab li {min-width: 100px;}
+    .tabs.mblTab li a {text-overflow: ellipsis; overflow: hidden;}
+    .anlysProBxWrap .brdrBxWrap {width: 440px;}
+    .anlysProBxWrap .subHdtBx {width: 440px;}
+    .anlysProBxWrap .tabBxCont {margin-bottom: 35px;}
+    /*분석절차 및 방법 diagram*/
+    .envrnOrg {min-height: 900px; width: 100%;}
+    .envrnOrg .orgInner .orgInerWrap {display: block;}
+    .envrnOrg .orgOne, .envrnOrg .orgTwo {width: 100%;height: 120px; margin-right: 20px; margin-bottom: 20px;border-radius: 0;}
+    .envrnOrg .org1 p {padding: 15px;}
+    .envrnOrg .bgBlue span {width: 400px;}
+    .envrnOrg .bgGreen span {width: 110px;}
+    .envrnOrg .orgInerWrap:nth-child(3) .bgBlue span, .envrnOrg .orgInerWrap:nth-child(4) .bgGreen span {width: 190px;}
+    .envrnOrg .orgInerWrap:nth-child(3) .bgBlue .org1:first-child span:before,.envrnOrg .orgInerWrap:nth-child(3) .bgBlue .org1:last-child span:before {height:165px; background-size: 100px 300px; top: -165px; z-index: -2}
+    .envrnOrg .orgInerWrap:nth-child(3) .bgBlue .org1:last-child span:before {left: -20%;}
+    .envrnOrg .orgInerWrap:nth-child(3) .bgBlue .org1:first-child span:before {left: 20%;}
+    .envrnOrg .bgGreen .org1 span:before{top: -167px; height: 165px; z-index: -2}
+    .envrnOrg .bgGreen .arrow1, .envrnOrg .bgGreen .arrow2 {border-left: 3px solid transparent;border-right: 3px solid transparent;border-top: 3px solid #CDCDCD;}
+    .envrnOrg .bgGreen .arrow2 {top: 20px;}
+    .envrnOrg .orgInerWrap:nth-child(4) .bgGreen .org1 p:after {height: 20px; bottom: -20px;}
+    /*측정소 설치현황*/
+    .msrMapArea {height: auto;position: relative;}
+    .mstTxtWrap {position: absolute; top: 0; left: 0;}
+    .mstTxtWrap h2 {font-size: 1.3rem;}
+    .msrMapNav {padding: 0 10px;}
+    .msrMapNav li {margin: 0 5px; font-size: 0.8rem;}
+    .msrMapDtlWrap {margin-top: 30px;}
+    /*보고서*/
+    .countNum span {font-size: 0.8rem;}
+    .retrieve .insert.search input {width: 250px;}
+    .retrieve .insert select {width: 130px;}
+    /*보고서*/
+    .countNum span {font-size: 0.8rem;}
+    .retrieve .insert.search input {width: 200px;}
+    .retrieve .insert select {width: 120px;}
+    .tabs.mblTab2 ul {display: grid; grid-template-columns: 1fr;}
+    .tabs.mblTab2 li {border-bottom: 0;}
+    .tabs.mblTab2 li:last-child {border-bottom: 1px solid #ddd;}
+    .boardTable tbody th {white-space: inherit;}
+    .boardTable .name {width: 70%;}
+    .retrieve .retrvWrap {height: 120px;}
+    .retrvWrap {display: inherit;}
+    .retrvWrap .insert select {margin-left: 0;}
+    .rightRtrv.retrieve .field:first-child {margin-left: 0;}
+    .countArea {display: flex; justify-content: flex-start;}
+    /*관련사이트*/
+    .siteWrap {grid-template-columns: 1fr 1fr;}
+    .siteWrap .brdrBxWrap {width: 220px;}
+    .siteWrap .tabBxCont {margin-bottom: 20px;}
+    /*소개*/
+    .liStTit .tabBxTit {margin-bottom: 0;}
+    .liStTit .tabBxTxt {display: grid; align-items: baseline; grid-template-columns: 1fr 1fr;}
+    .liStTit .tabBxTxt:last-child {margin-bottom: 0;}
+    .liStTit .tabBxTxt h2 {white-space: nowrap;}
+    .brdrBxWrap.liStTit {padding: 15px;}
+    .subHdtBx .field {margin-top: 20px;}
+    .contImg img {width: 100%;}
+    .tabTxt h3 {font-size: 1rem;}
+    .numBxTit h2 {font-size: 1rem;}
+    .numBxTxt {display: block;}
+    .numBxTxt .tabTxt {margin-left: 30px;}
+    .stepCrcl {width: 130px; height: 110px; margin: 0 2px;}
+    .stepCrcl:after {display: none;}
+    .ratingBx .brdrBxWrap {width: 125px;}
+    .rtngTxt .txtBx {display: block;}
+    .adminAdr .inrTxtBx {display: flex; align-items: center; line-height: inherit; padding: 0 20px;}
+    .bxRow .txtBx:first-child:after {display: none;}
+    .bxRow {display: grid;}
+    .bxRow .txtBx:nth-child(2), .bxRow .txtBx:last-child {margin-left: 40px;}
+    .dspTbl1 {display: table;}
+    .dspTbl2 {display: block;}
+    .tabs.mblTab3 ul {display: grid; grid-template-columns: 1fr 1fr;}
+    .tabs.mblTab3 li:first-child, .tabs.mblTab3 li:nth-child(2), .tabs.mblTab3 li:nth-child(3) {border-bottom: 0;}
+    .tabs.mblTab3 li:first-child, .tabs.mblTab3 li:nth-child(3) {border-right: 0;}
+    /*소개 diagram*/
+    .rdctvOrg .org1 {margin-right: 20px;}
+    .rdctvOrg .bgBlue {width: 320px;}
+    .rdctvOrg .org1 p {width: 120px;}
+    .rdctvOrg .bgGreen:after {width: 280px; left: calc(15% + 1px);}
+    /*참가신청*/
+    .tabTxtBxWrap .tabTxTit.lineT h2 {font-size: 1.4rem;}
+    .join .field {display: block;}
+    .join .field > .field {margin-left: 0; margin-top: 10px;}
+    .join .field label {margin-bottom: 10px; display: block;}
+    .join .field:not(:last-child) {margin-bottom: 10px;}
+    .join .field.adrFild .insert {margin-bottom: 10px;}
+    .join .field .inptBxXs.mailAd {width: 150px;}
+    .join .field .inptBxSm.mailAd {width: 150px;}
+    .join .field .inptBxSm.mailAd:last-child, .antNmb {margin-top: 10px;}
+    .mblBxwrap {margin-top: 10px;}
+    .prvcyTable td, .prvcyTable th {font-size: 0.9rem; padding: 15px 0;}
+    .insert.rcvAdr .inptBxMd {margin-top: 10px;}
+    .insert.rcvAdr .inptBxMd, .insert.rcvAdr .inptBxLg{width: 520px;}
+    .userInptArea .field label {margin-bottom: 10px; display: block;}
+    .userInptArea .field {display: block;}
+    .userInptArea .chkArea > div {display: flex;}
+    .ntfctTxt h3 {font-size: 1rem;}
+    .anablEvltnTable .insert input {width: auto;}
+    /*모달*/
+    .modal-content {width: 90%;}
+    .srvyPopup .modal-content {width: 90%; height: 750px;}
+    .modal .rytBtnArea {justify-content: center;}
+    .modal-content {width: 80%; height: 800px; overflow-y: auto;}
+    .slcTblmdl .modalTab {padding: 30px;}
+    .slcTblmdl .modal-content {width: 75%;}
+    .slcTblmdl .modalTab .insert {width: 100%}
+    .slcTblmdl .field {display: block;}
+    .slcTblmdl .field label {float: left;}
+    .slcTblmdl .userInptArea {padding: 20px 0;}
+    .slcTblmdl .field div:first-child {margin-bottom: 10px;}
+    .slcTblmdl .field > .field, .slcTblmdl .field input {margin-left: 0;}
+    .slcTblmdl .field .mdlFlex {margin-bottom: 23px;}
+    .slcTblmdl .mdlField .field {display: block; width: 100%;}
+    .slcTblmdl .mdlField .insert {width: 100%;}
+    .slcTblmdl .mdlField .field:nth-child(2) {margin-left: 0;}
+    .srvyPopup .txtBxWrap {padding: 20px;}
+    .srvyArea .chkArea input[type=text], .srvyArea textarea {width: 250px;}
+    .srvyPopup .srvyTit {height: 170px;}
+    /*워크숍 개요*/
+    .anlysProBxWrap .brdrBxWrap.maxBx {width: 100%; padding: 20px; margin-top: 20px;}
+    .anlysProBxWrap .brdrBxWrap.maxBx .tabBxTxt { grid-template-columns: 1fr 7fr;}
+    /*워크숍 사전등록*/
+    .join .field.useYn .chkArea > div {display: flex;}
+    /*오시는 길*/
+    .dirTit {margin-right: 20px;}
+    .dirTit h1 {font-size: 1rem;}
+    .dirMapNm {display: none;}
+    /*자료실*/
+    .userRetrieve .retrvWrap {height: auto;}
+    .userRetrieve .field {margin: 0 20px; display: inline-block;}
+    .userRetrieve .field label {margin-bottom: 10px; display: block;}
+    .userRetrieve .retrvWrap form {display: inline-block;}
+    .userRetrieve .insert.search input {width: 335px;}
+    .userRetrieve .insert input, .userRetrieve .insert select {margin-left: 0;}
+    .userRetrieve .field:last-child {margin-top: 20px;}
+    /*로그인*/
+    .lgnBxWrap {padding: 30px;}
+    .lgnTxtBxWrap {width: auto;}
+    .loginArea .insert label {width: 60px;}
+    .loginArea .insert input {width: 200px; margin-left: 10px;}
+    .loginNav {width: 300px; margin-left: 80px; display: inline-block;}
+    .loginBtn {width: 100px;}
+    .logChk {margin-bottom: 20px;}
+    .lgnBxWrap .inptBxSm {width: 230px;}
+    /*페이지 오류 안내*/
+    .pgeErrWrap {padding: 100px 20px;}
+    /*분석결과제출*/
+    .slctTable .insert .mgnfr {padding-right: 40px;}
+}
+@media (max-width: 547px) {
+    /*메인*/
+    .topbanr-swiper {max-width: 460px;height: 75px;}
+    .swiper-wrapper .topBanrCont {align-items: inherit;padding-top: 10px;}
+    .topBanner {height: 75px;line-height: 75px;}
+    .topBanrCont h1 {font-size: 1rem;}
+    .closeBtn img {width: 15px;}
+    .closeBtn {top: 10px;}
+    .closeBtn span {display: none;}
+    .topbanrNav {position: relative;left: 45%;bottom: 55px;}
+    .topbanrNav .swiper-pagination-fraction {bottom: -38px;}
+    .topBanrBtn {display: flex;align-items: inherit;padding-top: 25px;}
+    .topBanrBtn button {width: 100px;height: 25px;font-size: 0.6rem;}
+    .header .mobile-gnb .sidebar-btn {height: 60px;}
+    .hdrCntnr {padding: 0 20px;border-bottom: 0;height: 60px;}
+    .hdrCntnr .logo img {width: 100px;}
+    .sideBtn {margin-left: 20px; right: 0;}
+    .sideBtn a {font-size: 0.8rem;padding: 7px 15px;}
+    .sideBtn {margin-right: 0;padding-left: 100px;}
+    .hdMenu, .toggleBtn {display: none;}
+    .header .mobile-gnb {display: block;}
+    .visual-txt p {font-size: 0.8rem;line-height: 30px;}
+    .visual-txt .tit {font-size: 1.8rem;line-height: 40px;}
+    .visual-txt {left: 40px;top: 50px;}
+    .mainWrap .swiper-pagination {top: 210px;left: 40px;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-button-prev {top: 225px !important;}
+    .mainWrap .swiper-pagination-bullet {width: 30px !important;}
+    .mainWrap .swiper-button-prev, .mainWrap .swiper-container-rtl .swiper-button-next {left: 180px !important;}
+    .mainWrap .swiper-button-next:after, .mainWrap .swiper-button-prev:after {font-size: 13px;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-container-rtl .swiper-button-prev {left: 220px !important;}
+    .wrap-autoplay-control {top: 216px;left: 207px;height: 15px;}
+    .wrap-autoplay-control button[aria-pressed="false"]:before {width: 9px; height: 9px;}
+    .wrap-autoplay-control button[aria-pressed="true"]:before {top:4px; left: 4px; border-top: 5px solid transparent; border-left: 12px solid #fff; border-bottom: 5px solid transparent;}
+    .mainWrap .swiper-container {height: 280px;}
+    .frqntMenu {margin-top: 0;}
+    .frqntBox {padding: 30px;display: inherit;}
+    .frqntBtn {margin: 20px;display: inline-block;width: 166px;}
+    .frqntBtn a {font-size: 1.1rem;}
+    .frqntBtn:nth-child(2) {position: relative;}
+    .frqntBtn:nth-child(2):before {content: "";border-bottom: 1px solid #FFFFFF4C;width: 380px;position: absolute;left: 0;top: 130px;}
+    .frqntBtn:nth-child(2):after {content: "";border-right: 1px solid #FFFFFF4C;height: 260px;position: absolute;left: 180px;top: 0;}
+    .frqntBtn img {height: 70px;}
+    .frqntTxt {margin-right: 0;}
+    .frqntTxt p {display: none;}
+    .frqntTxt h1 {font-size: 1.2rem;}
+    .mainCont .titleBar h1 {font-size: 1.2rem;line-height: 40px;}
+    .mainContWrap {display: inherit;padding-top: 30px;}
+    .basicKnwld, .anlysRprt {width: 420px;height: 179px;margin-bottom: 20px;}
+    .basicKnwld a, .anlysRprt a {width: 420px;height: 179px;}
+    .imprmArea {display: inherit;}
+    .imprmArea img {padding-top: 50px;}
+    .imprmAreaWrap h2 {font-size: 1.1rem;}
+    .imprmAreaWrap p {display: none;}
+    .imprmAreaWrap h2 {line-height: 30px;}
+    .mainCont {max-width: 420px;}
+    .noticeAreaWrap {margin-top: 20px;display: inline-block;}
+    .noticeItem {padding: 25px;margin-bottom: 10px;}
+    .noticeIcon {margin-top: 10px;}
+    .noticeIcon img {width: 30px;}
+    .noticeTxt span {font-size: 1.2rem;}
+    .noticeTxt p {font-size: 1rem;}
+    .noticeItem .moreIcon {display: none;}
+    .prtnrArea {margin-top: 60px;}
+    .prtnrWrap {max-width: 479px;}
+    .slideBtn {display: none;}
+    .prtnrWrap .swiper-container {margin-left: 0;}
+    .prtnrWrap .swiper-container img {height: 40px;}
+    .ftWrap {max-width: 950px;}
+    .ftLogo img, .ftWaLogo img {display: none;}
+    .ftWrap .adr {font-size: 0.9rem;padding-left: 30px;width: 450px;}
+    .ftWrap, .footer {height: 150px;}
+}
+@media (max-width: 479px) {
+    /*메인*/
+    .topbanr-swiper {max-width: 460px;height: 75px;}
+    .swiper-wrapper .topBanrCont {align-items: inherit;padding-top: 10px;}
+    .topBanner {height: 75px;line-height: 75px;}
+    .topBanrCont h1 {font-size: 1rem;}
+    .closeBtn img {width: 15px;}
+    .closeBtn {top: 10px;}
+    .closeBtn span {display: none;}
+    .topbanrNav {position: relative;left: 45%;bottom: 55px;}
+    .topbanrNav .swiper-pagination-fraction {bottom: -38px;}
+    .topBanrBtn {display: flex;align-items: inherit;padding-top: 25px;}
+    .topBanrBtn button {width: 100px;height: 25px;font-size: 0.6rem;}
+    .header .mobile-gnb .sidebar-btn {height: 60px;}
+    .hdrCntnr {padding: 0 20px;border-bottom: 0;height: 60px;}
+    .hdrCntnr .logo img {width: 100px;}
+    .sideBtn {margin-left: 20px; right: 0;}
+    .sideBtn a {font-size: 0.8rem;padding: 7px 15px;}
+    .sideBtn {margin-right: 0;padding-left: 100px;}
+    .hdMenu, .toggleBtn {display: none;}
+    .header .mobile-gnb {display: block;}
+    .visual-txt p {font-size: 0.8rem;line-height: 30px;}
+    .visual-txt .tit {font-size: 1.8rem;line-height: 40px;}
+    .visual-txt {left: 40px;top: 50px;}
+    .mainWrap .swiper-pagination {top: 210px;left: 40px;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-button-prev {top: 225px !important;}
+    .mainWrap .swiper-pagination-bullet {width: 30px !important;}
+    .mainWrap .swiper-button-prev, .mainWrap .swiper-container-rtl .swiper-button-next {left: 180px !important;}
+    .mainWrap .swiper-button-next:after, .mainWrap .swiper-button-prev:after {font-size: 13px;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-container-rtl .swiper-button-prev {left: 220px !important;}
+    .wrap-autoplay-control {top: 216px;left: 207px;height: 15px;}
+    .wrap-autoplay-control button[aria-pressed="false"]:before {width: 9px; height: 9px;}
+    .wrap-autoplay-control button[aria-pressed="true"]:before {top:4px; left: 4px; border-top: 5px solid transparent; border-left: 12px solid #fff; border-bottom: 5px solid transparent;}
+    .mainWrap .swiper-container {height: 280px;}
+    .frqntMenu {margin-top: 0;}
+    .frqntBox {padding: 30px;display: inherit;}
+    .frqntBtn {margin: 20px;display: inline-block;width: 166px;}
+    .frqntBtn a {font-size: 1.1rem;}
+    .frqntBtn:nth-child(2) {position: relative;}
+    .frqntBtn:nth-child(2):before {content: "";border-bottom: 1px solid #FFFFFF4C;width: 380px;position: absolute;left: 0;top: 130px;}
+    .frqntBtn:nth-child(2):after {content: "";border-right: 1px solid #FFFFFF4C;height: 260px;position: absolute;left: 180px;top: 0;}
+    .frqntBtn img {height: 70px;}
+    .frqntTxt {margin-right: 0;}
+    .frqntTxt p {display: none;}
+    .frqntTxt h1 {font-size: 1.2rem;}
+    .mainCont .titleBar h1 {font-size: 1.2rem;line-height: 40px;}
+    .mainContWrap {display: inherit;padding-top: 30px;}
+    .basicKnwld, .anlysRprt {width: 420px;height: 179px;margin-bottom: 20px;}
+    .basicKnwld a, .anlysRprt a {width: 420px;height: 179px;}
+    .imprmArea {display: inherit;}
+    .imprmArea img {padding-top: 50px;}
+    .imprmAreaWrap h2 {font-size: 1.1rem;}
+    .imprmAreaWrap p {display: none;}
+    .imprmAreaWrap h2 {line-height: 30px;}
+    .mainCont {max-width: 420px;}
+    .noticeAreaWrap {margin-top: 20px;display: inline-block;}
+    .noticeItem {padding: 25px;margin-bottom: 10px;}
+    .noticeIcon {margin-top: 10px;}
+    .noticeIcon img {width: 30px;}
+    .noticeTxt span {font-size: 1.2rem;}
+    .noticeTxt p {font-size: 1rem;}
+    .noticeItem .moreIcon {display: none;}
+    .prtnrArea {margin-top: 60px;}
+    .prtnrWrap {max-width: 479px;}
+    .slideBtn {display: none;}
+    .prtnrWrap .swiper-container {margin-left: 0;}
+    .prtnrWrap .swiper-container img {height: 40px;}
+    .ftWrap {max-width: 950px;}
+    .ftLogo img, .ftWaLogo img {display: none;}
+    .ftWrap .adr {font-size: 0.9rem;padding-left: 30px;width: 450px;}
+    .ftWrap, .footer {height: 150px;}
+    /*목적 및 개요*/
+    .subVis {height: 150px;}
+    .sibVi-txt {padding: 45px 0; max-width: 400px;}
+    .sibVi-txt p {font-size: 0.7rem; letter-spacing: 10px;}
+    .sibVi-txt .tit {font-size: 2rem;}
+    .subPageTit h2 {font-size: 1.4rem;}
+    .snbMenu {display: none;}
+    .content.main {max-width: 480px;}
+    .content, .dirMap, .pgeErr {max-width: 440px;}
+    .subPageWrap {padding: 30px 0;}
+    .aboutImgTxt {width: 440px; height: 100px;}
+    .aboutImgTxtWrap {padding: 8px 10px; margin-top: -10px;}
+    .aboutImgTxtWrap h2 {font-size: 1.2rem; padding: 5px 0;}
+    .aboutImgTxtWrap p {font-size: 0.8rem;}
+    .aboutTxtBxWrap .subHdtBx {padding: 20px 10px;}
+    .subHdTit h2 {font-size: 1.2rem;}
+    .aboutTxt p, .txtBx p, .btmTxtBx p, .tabTxt p, .crclTxt p {font-size: 0.9rem; line-height: 28px;}
+    /*기초지식*/
+    .tabTxtBxWrap .tabTxTit h2 {font-size: 1.2rem;}
+    .imgWrap img {width: 100%;}
+    .tabs li {min-width: 180px;}
+    .tabs2 span {font-size: 1.8rem; line-height: 10px;}
+    .tabs2 p {font-size: 0.9rem; height: 40px;}
+    .tabs2 li {padding: 40px 0;}
+    .tabBxTxt {margin-bottom: 30px; display: inline-block;}
+    .tabBxTit {width: 120px; height: 30px; margin-bottom: 10px;}
+    .tabBxTit h2 {line-height: 30px; font-size: 1rem;}
+    .colrStTit .tabBxTit h2 {white-space: nowrap;}
+    .table-responsive table {font-size: 0.9rem;}
+    .ntrArea, .artfcArea {padding: 0 40px;}
+    .ntrArea .circle, .artfcArea .circle {width: 150px; height: 150px;}
+    .circle h3 {height: 150px;}
+    .ntrArea .txtBx h3, .artfcArea .txtBx h3 {font-size: 1rem;}
+    /*감시개요 및 역사*/
+    .hisBgImg .imgWrap {height: 220px;}
+    .hisBgImg .imgWrap .txtBx p {font-size: 0.9rem;}
+    .hisBgImg .imgWrap .txtBx h2 {font-size: 0.8rem;}
+    .subHdtBx {display: inline-block;}
+    .subHdtBx.mblGrid {display: grid;}
+    .hisHdTit h2 {font-size: 1.8rem; width: 200px;}
+    .tabTxtBxWrap .tabTxTit h3 {font-size: 1rem;}
+    .tabBxBgImg .imgWrap {height: 400px; padding: 0 30px;}
+    .tabBxBgImg .txtBx h2 {font-size: 1rem;}
+    .tabBxBgImg .txtBx p {font-size: 0.8rem; line-height: 25px;}
+    /*목적 및 법적근거*/
+    .icoFlxCont {display: inline-block;}
+    .icoFlxCont .brdrBxWrap {height: 250px; margin-bottom: 20px; margin-right: 0;}
+    .icoFlxCont .icoFlxContWrap {padding: 20px;}
+    .icoFlxCont .icoFlxContWrap p {line-height: 25px;}
+    .icoFlxCont .icoFlxContWrap h3 {font-size: 1rem;}
+    /*배경 및 목적*/
+    .bckImg img:nth-child(2) {display: none;}
+    .bckImg img {width: 50%; height: 170px; margin-right: 10px;}
+    /*시스템 구성*/
+    /*프로그램*/
+    .schdlCnt {display: grid; padding: 15px 30px;}
+    .schdlTit {white-space: nowrap;}
+    .schdlBtn {right: 10px;}
+    .schdlCnt button {margin: 0; background-size: 25px 25px;}
+    /*감시 프로그램*/
+    .inrTxtBx h3 {font-size: 0.9rem;}
+    /*감시 프로그램 diagram*/
+    .srvlnOrg{min-height: 1500px;}
+    .srvlnOrg .orgOne:after{height: 260px;}
+    .srvlnOrg .orgTwo ul {display: block;}
+    .srvlnOrg .bgBlue span {margin: 20px 0;}
+    .srvlnOrg .org1:first-child span {margin: 0 auto 20px;}
+    .srvlnOrg .org1 .org1Iner li, .srvlnOrg .org1, .srvlnOrg .bgBlue span , .srvlnOrg .org2 p {width: 100%;}
+    .srvlnOrg .bgBlue span:before, .srvlnOrg .org1:first-child span:after, .srvlnOrg .org1Iner:after{width: 0;}
+    .srvlnOrg .org1 .org1Iner li:last-child {margin-top: 20px;}
+    .srvlnOrg .bgBlue .arrow1, .srvlnOrg .bgBlue .arrow2 {display: none;}
+    .srvlnOrg .org2 p:nth-child(2):before {top: -20px;}
+    .srvlnOrg .org1:nth-child(2) .org2 p:nth-child(2):before, .srvlnOrg .org1:nth-child(3) .org2 p:nth-child(2):before {height: 20px;top: -20px;}
+    /*분석절차 및 방법*/
+    .tabs.mblTab ul {display: grid; grid-template-columns: 1fr 1fr 1fr;}
+    .tabs.mblTab li:first-child, .tabs.mblTab li:nth-child(2) {border-bottom: 0;}
+    .tabs.mblTab li {min-width: 100px;}
+    .tabs.mblTab li a {text-overflow: ellipsis; overflow: hidden;}
+    .anlysProBxWrap .brdrBxWrap {width: 440px;}
+    .anlysProBxWrap .subHdtBx {width: 440px;}
+    .anlysProBxWrap .tabBxCont {margin-bottom: 35px;}
+    /*분석절차 및 방법 diagram*/
+    .envrnOrg {min-height: 900px; width: 100%;}
+    .envrnOrg .orgInner .orgInerWrap {display: block;}
+    .envrnOrg .orgOne, .envrnOrg .orgTwo {width: 100%;height: 120px; margin-right: 20px; margin-bottom: 20px;border-radius: 0;}
+    .envrnOrg .org1 p {padding: 15px;}
+    .envrnOrg .bgBlue span {width: 400px;}
+    .envrnOrg .bgGreen span {width: 110px;}
+    .envrnOrg .orgInerWrap:nth-child(3) .bgBlue span, .envrnOrg .orgInerWrap:nth-child(4) .bgGreen span {width: 190px;}
+    .envrnOrg .orgInerWrap:nth-child(3) .bgBlue .org1:first-child span:before,.envrnOrg .orgInerWrap:nth-child(3) .bgBlue .org1:last-child span:before {height:165px; background-size: 100px 300px; top: -165px; z-index: -2}
+    .envrnOrg .orgInerWrap:nth-child(3) .bgBlue .org1:last-child span:before {left: -20%;}
+    .envrnOrg .orgInerWrap:nth-child(3) .bgBlue .org1:first-child span:before {left: 20%;}
+    .envrnOrg .bgGreen .org1 span:before{top: -167px; height: 165px; z-index: -2}
+    .envrnOrg .bgGreen .arrow1, .envrnOrg .bgGreen .arrow2 {border-left: 3px solid transparent;border-right: 3px solid transparent;border-top: 3px solid #CDCDCD;}
+    .envrnOrg .bgGreen .arrow2 {top: 20px;}
+    .envrnOrg .orgInerWrap:nth-child(4) .bgGreen .org1 p:after {height: 20px; bottom: -20px;}
+    /*측정소 설치현황*/
+    .msrMapArea {height: auto;position: relative;}
+    .mstTxtWrap {position: absolute; top: 0; left: 0;}
+    .mstTxtWrap h2 {font-size: 1.3rem;}
+    .msrMapNav {padding: 0 10px;}
+    .msrMapNav li {margin: 0 5px; font-size: 0.8rem;}
+    .msrMapDtlWrap {margin-top: 30px;}
+    /*보고서*/
+    .countNum span {font-size: 0.8rem;}
+    .retrieve .insert.search input {width: 250px;}
+    .retrieve .insert select {width: 130px;}
+    /*보고서*/
+    .countNum span {font-size: 0.8rem;}
+    .retrieve .insert.search input {width: 200px;}
+    .retrieve .insert select {width: 120px;}
+    .tabs.mblTab2 ul {display: grid; grid-template-columns: 1fr;}
+    .tabs.mblTab2 li {border-bottom: 0;}
+    .tabs.mblTab2 li:last-child {border-bottom: 1px solid #ddd;}
+    .boardTable tbody th {white-space: inherit;}
+    .boardTable .name {width: 70%;}
+    .retrieve .retrvWrap {height: 120px;}
+    .retrvWrap {display: inherit;}
+    .retrvWrap .insert select {margin-left: 0;}
+    .rightRtrv.retrieve .field:first-child {margin-left: 0;}
+    .countArea {display: flex; justify-content: flex-start;}
+    /*관련사이트*/
+    .siteWrap {grid-template-columns: 1fr 1fr;}
+    .siteWrap .brdrBxWrap {width: 220px;}
+    .siteWrap .tabBxCont {margin-bottom: 20px;}
+    /*소개*/
+    .liStTit .tabBxTit {margin-bottom: 0;}
+    .liStTit .tabBxTxt {display: grid; align-items: baseline; grid-template-columns: 1fr 1fr;}
+    .liStTit .tabBxTxt:last-child {margin-bottom: 0;}
+    .liStTit .tabBxTxt h2 {white-space: nowrap;}
+    .brdrBxWrap.liStTit {padding: 15px;}
+    .subHdtBx .field {margin-top: 20px;}
+    .contImg img {width: 100%;}
+    .tabTxt h3 {font-size: 1rem;}
+    .numBxTit h2 {font-size: 1rem;}
+    .numBxTxt {display: block;}
+    .numBxTxt .tabTxt {margin-left: 30px;}
+    .stepCrcl {width: 130px; height: 110px; margin: 0 2px;}
+    .stepCrcl:after {display: none;}
+    .ratingBx .brdrBxWrap {width: 125px;}
+    .rtngTxt .txtBx {display: block;}
+    .adminAdr .inrTxtBx {display: flex; align-items: center; line-height: inherit; padding: 0 20px;}
+    .bxRow .txtBx:first-child:after {display: none;}
+    .bxRow {display: grid;}
+    .bxRow .txtBx:nth-child(2), .bxRow .txtBx:last-child {margin-left: 40px;}
+    .dspTbl1 {display: table;}
+    .dspTbl2 {display: block;}
+    .tabs.mblTab3 ul {display: grid; grid-template-columns: 1fr 1fr;}
+    .tabs.mblTab3 li:first-child, .tabs.mblTab3 li:nth-child(2), .tabs.mblTab3 li:nth-child(3) {border-bottom: 0;}
+    .tabs.mblTab3 li:first-child, .tabs.mblTab3 li:nth-child(3) {border-right: 0;}
+    /*소개 diagram*/
+    .rdctvOrg .org1 {margin-right: 20px;}
+    .rdctvOrg .bgBlue {width: 320px;}
+    .rdctvOrg .org1 p {width: 120px;}
+    .rdctvOrg .bgGreen:after {width: 280px; left: calc(15% + 1px);}
+    /*참가신청*/
+    .tabTxtBxWrap .tabTxTit.lineT h2 {font-size: 1.4rem;}
+    .join .field {display: block;}
+    .join .field > .field {margin-left: 0; margin-top: 10px;}
+    .join .field label {margin-bottom: 10px; display: block;}
+    .join .field:not(:last-child) {margin-bottom: 10px;}
+    .join .field.adrFild .insert {margin-bottom: 10px;}
+    .join .field .inptBxXs.mailAd {width: 150px;}
+    .join .field .inptBxSm.mailAd {width: 150px;}
+    .join .field .inptBxSm.mailAd:last-child, .antNmb {margin-top: 10px;}
+    .mblBxwrap {margin-top: 10px;}
+    .prvcyTable td, .prvcyTable th {font-size: 0.9rem; padding: 15px 0;}
+    .insert.rcvAdr .inptBxMd {margin-top: 10px;}
+    .insert.rcvAdr .inptBxMd, .insert.rcvAdr .inptBxLg{width: 520px;}
+    .userInptArea .field label {margin-bottom: 10px; display: block;}
+    .userInptArea .field {display: block;}
+    .userInptArea .chkArea > div {display: flex;}
+    .ntfctTxt h3 {font-size: 1rem;}
+    .anablEvltnTable .insert input {width: auto;}
+    /*모달*/
+    .modal-content {width: 90%;}
+    .srvyPopup .modal-content {width: 90%; height: 750px;}
+    .modal .rytBtnArea {justify-content: center;}
+    .modal-content {width: 80%; height: 800px; overflow-y: auto;}
+    .slcTblmdl .modalTab {padding: 30px;}
+    .slcTblmdl .modal-content {width: 75%;}
+    .slcTblmdl .modalTab .insert {width: 100%}
+    .slcTblmdl .field {display: block;}
+    .slcTblmdl .field label {float: left;}
+    .slcTblmdl .userInptArea {padding: 20px 0;}
+    .slcTblmdl .field div:first-child {margin-bottom: 10px;}
+    .slcTblmdl .field > .field, .slcTblmdl .field input {margin-left: 0;}
+    .slcTblmdl .field .mdlFlex {margin-bottom: 23px;}
+    .slcTblmdl .mdlField .field {display: block; width: 100%;}
+    .slcTblmdl .mdlField .insert {width: 100%;}
+    .slcTblmdl .mdlField .field:nth-child(2) {margin-left: 0;}
+    .srvyPopup .txtBxWrap {padding: 20px;}
+    .srvyArea .chkArea input[type=text], .srvyArea textarea {width: 250px;}
+    .srvyPopup .srvyTit {height: 170px;}
+    /*워크숍 개요*/
+    .anlysProBxWrap .brdrBxWrap.maxBx {width: 100%; padding: 20px; margin-top: 20px;}
+    .anlysProBxWrap .brdrBxWrap.maxBx .tabBxTxt { grid-template-columns: 1fr 7fr;}
+    /*워크숍 사전등록*/
+    .join .field.useYn .chkArea > div {display: flex;}
+    /*오시는 길*/
+    .dirTit {margin-right: 20px;}
+    .dirTit h1 {font-size: 1rem;}
+    .dirMapNm {display: none;}
+    /*자료실*/
+    .userRetrieve .retrvWrap {height: auto;}
+    .userRetrieve .field {margin: 0 20px; display: inline-block;}
+    .userRetrieve .field label {margin-bottom: 10px; display: block;}
+    .userRetrieve .retrvWrap form {display: inline-block;}
+    .userRetrieve .insert.search input {width: 335px;}
+    .userRetrieve .insert input, .userRetrieve .insert select {margin-left: 0;}
+    .userRetrieve .field:last-child {margin-top: 20px;}
+    /*로그인*/
+    .lgnBxWrap {padding: 30px;}
+    .lgnTxtBxWrap {width: auto;}
+    .loginArea .insert label {width: 60px;}
+    .loginArea .insert input {width: 200px; margin-left: 10px;}
+    .loginNav {width: 300px; margin-left: 80px; display: inline-block;}
+    .loginBtn {width: 100px;}
+    .logChk {margin-bottom: 20px;}
+    .lgnBxWrap .inptBxSm {width: 230px;}
+    /*페이지 오류 안내*/
+    .pgeErrWrap {padding: 100px 20px;}
+    /*분석결과제출*/
+    .slctTable .insert .mgnfr {padding-right: 40px;}
+}
+@media (max-width: 473px) {
+    /*메인*/
+    .topbanr-swiper {max-width: 380px;height: 65px;}
+    .topBanner {height: 65px;line-height: 65px;}
+    .topBanrCont > img {padding-top: 10px;}
+    .topBanrCont h1 {font-size: 0.8rem;}
+    .closeBtn {right: 10px;}
+    .topbanrNav {left: 40%;bottom: 48px;}
+    .topbanrNav .swiper-pagination-fraction {bottom: -34px;}
+    .topbanrNav .swiper-button-next:after, .topbanrNav .swiper-button-prev:after {font-size: 10px;}
+    .topBanrBtn {padding-top: 22px;}
+    .topBanrBtn button {width: 88px;height: 19px;font-size: 0.5rem;margin-left: 10px;}
+    .sideBtn {padding-left: 40px;}
+    .header .mobile-gnb .sidebar-wrap .hdBtn {margin-right: 25px;}
+    .visual-txt p {font-size: 0.7rem;letter-spacing: 0.6em;}
+    .visual-txt .tit {font-size: 1.5rem;line-height: 30px;}
+    .mainWrap .swiper-pagination {top: 180px;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-button-prev {top: 195px !important;}
+    .wrap-autoplay-control {top: 187px;}
+    .frqntBox {padding: 20px;}
+    .frqntBtn {width: 125px;}
+    .frqntBtn a {font-size: 1rem;}
+    .frqntBtn:nth-child(2):before {width: 300px;top: 115px;}
+    .frqntBtn:nth-child(2):after {height: 225px;left: 145px;}
+    .frqntBtn img {height: 55px;}
+    .basicKnwld, .anlysRprt {width: 343px;height: 150px;}
+    .basicKnwld a, .anlysRprt a {width: 343px;height: 150px;}
+    .imprmArea img {padding-top: 30px;}
+    .mainCont {max-width: 343px;}
+    .noticeItem {padding: 20px;}
+    .prtnrSlideitem {margin-right: 10px;}
+    .prtnrArea {margin-top: 30px;}
+    .prtnrWrap {max-width: 380px;}
+    .ftWrap .adr {width: 330px;}
+
+}
+@media (max-width: 380px) {
+    /*메인*/
+    .topbanr-swiper {max-width: 380px;height: 65px;}
+    .topBanner {height: 65px;line-height: 65px;}
+    .topBanrCont > img {padding-top: 10px;}
+    .topBanrCont h1 {font-size: 0.8rem;}
+    .closeBtn {right: 10px;}
+    .topbanrNav {left: 40%;bottom: 48px;}
+    .topbanrNav .swiper-pagination-fraction {bottom: -34px;}
+    .topbanrNav .swiper-button-next:after, .topbanrNav .swiper-button-prev:after {font-size: 10px;}
+    .topBanrBtn {padding-top: 22px;}
+    .topBanrBtn button {width: 88px;height: 19px;font-size: 0.5rem;margin-left: 10px;}
+    .sideBtn {padding-left: 40px;}
+    .header .mobile-gnb .sidebar-wrap .hdBtn {margin-right: 25px;}
+    .visual-txt p {font-size: 0.7rem;letter-spacing: 0.6em;}
+    .visual-txt .tit {font-size: 1.5rem;line-height: 30px;}
+    .mainWrap .swiper-pagination {top: 180px;}
+    .mainWrap .swiper-button-next, .mainWrap .swiper-button-prev {top: 195px !important;}
+    .wrap-autoplay-control {top: 187px;}
+    .frqntBox {padding: 20px;}
+    .frqntBtn {width: 125px;}
+    .frqntBtn a {font-size: 1rem;}
+    .frqntBtn:nth-child(2):before {width: 300px;top: 115px;}
+    .frqntBtn:nth-child(2):after {height: 225px;left: 145px;}
+    .frqntBtn img {height: 55px;}
+    .basicKnwld, .anlysRprt {width: 343px;height: 150px;}
+    .basicKnwld a, .anlysRprt a {width: 343px;height: 150px;}
+    .imprmArea img {padding-top: 30px;}
+    .mainCont {max-width: 343px;}
+    .noticeItem {padding: 20px;}
+    .prtnrSlideitem {margin-right: 10px;}
+    .prtnrArea {margin-top: 30px;}
+    .prtnrWrap {max-width: 380px;}
+    .ftWrap .adr {width: 330px;}
+    /*목적 및 개요*/
+    .sibVi-txt {padding: 50px 0; max-width: 300px;}
+    .sibVi-txt p {font-size: 0.6rem; letter-spacing: 8px;}
+    .sibVi-txt .tit {font-size: 1.7rem;}
+    .content, .dirMap, .pgeErr {max-width: 350px;}
+    .aboutImgTxt {width: 350px; height: 100px;}
+    .aboutImgTxtWrap {padding: 10px;}
+    .aboutImgTxtWrap h2 {font-size: 1rem; padding: 5px 0;}
+    .aboutImgTxtWrap p {font-size: 0.7rem;}
+    /*기초지식*/
+    .tabs a {font-size: 0.9rem; white-space: nowrap;padding: 0 10px;}
+    .tabs2 span {font-size: 1.3rem;}
+    .tabs2 p {font-size: 0.85rem; height: 30px; white-space: break-spaces}
+    .tabs2 li {padding: 40px 10px; min-width: 112px;}
+    .tabBxTit h2 {font-size: 0.9rem;}
+    .ntrArea, .artfcArea {padding: 0 20px;}
+    .ntrArea .circle, .artfcArea .circle {width: 120px; height: 120px;}
+    .circle h3 {height: 120px; font-size: 1rem;}
+    /*감시개요 및 역사*/
+    .hisBgImg .imgWrap .txtBx p {font-size: 0.9rem;}
+    .hisBgImg .imgWrap .txtBx h2 {font-size: 1.3rem;}
+    .hisDetail .hisDateBx {margin: 0 14px 23px;}
+    .tabBxBgImg .imgWrap {height: 500px; padding: 0 30px;}
+    .tabBxBgImg .txtBx h2 {font-size: 0.9rem;}
+    .tabBxBgImg .txtBx h2:after {left: -6px; top: 10px;}
+    .tabBxBgImg .txtBx p {font-size: 0.8rem; line-height: 25px;}
+    /*목적 및 법적근거*/
+    .icoFlxCont .brdrBxWrap {width: auto;}
+    /*시스템 구성*/
+    .inrTxtBx h3 {font-size: 0.9rem;}
+    /*프로그램*/
+    .schdlTxt p {max-width: 200px;}
+    /*소개 diagram*/
+    .rdctvOrg .org1 {margin-right: 10px;}
+    .rdctvOrg .org1 p {width: 100px;}
+    .rdctvOrg .org1 p:nth-child(2) {font-size: 0.85rem;}
+    .rdctvOrg .bgGreen:after {width: 223px; left: calc(15% + 1px);}
+    /*분석절차 및 방법*/
+    .anlysProBxWrap .brdrBxWrap {width: 330px; margin-right: 0 !important;}
+    .anlysProBxWrap .subHdtBx {width: 330px;}
+    .anlysProBxWrap .tabBxCont {margin-bottom: 15px; margin-right: 0 !important; margin-top: 10px;}
+    .anlysProBxWrap .brdrBxWrap:first-child {margin-top: 30px;}
+    /*배경 및 목적*/
+    .bckImg {display: block;}
+    .bckImg img {width: 100%; height: 200px; margin-bottom: 20px;}
+    /*분석절차 및 방법 diagram*/
+    .envrnOrg .bgBlue span {width: 300px}
+    .envrnOrg .orgInerWrap:nth-child(3) .bgBlue span, .envrnOrg .orgInerWrap:nth-child(4) .bgGreen span {width: 150px;}
+    .envrnOrg .bgGreen .org1 span:before, .envrnOrg .orgInerWrap:nth-child(4) .bgGreen .org1 p:after{width: 0;}
+    .envrnOrg .bgGreen .arrow1, .envrnOrg .bgGreen .arrow2{display: none;}
+    .envrnOrg .org1 {margin-right: 10px;}
+    .envrnOrg .org1 p {padding: 5px;}
+    .envrnOrg .bgGreen span{width: 95px;}
+    .envrnOrg .orgInerWrap:nth-child(3) .bgBlue .org1:first-child span:before, .envrnOrg .orgInerWrap:nth-child(3) .bgBlue .org1:last-child span:before {display: none;}
+    /*측정소 설치현황*/
+    .msrMapNav li {margin: 0 3px; font-size: 0.6rem;}
+    .msrMapArea {padding-top: 350px;}
+    /*보고서*/
+    .retrieve .insert.search input {width: 190px;}
+    .retrieve .insert select {width: 80px;}
+    .rightRtrv .retrvWrap {padding: 15px 10px;}
+    /*관련사이트*/
+    .siteWrap .brdrBxWrap {width: 177px;}
+    .siteWrap .brdrBxWrap img {width: 50%;}
+    .siteWrap .tabBxCont {margin-bottom: 20px;}
+    .siteWrap .tabBxCont span {font-size: 0.85rem;}
+    /*소개*/
+    .dspTbl1 {display: block;}
+    .ratingBx {display: block;}
+    .ratingBx .brdrBxWrap {width: 100%;}
+    .ratingBx .brdrBxWrap:nth-child(2) {margin: 40px 0;}
+    .dspTbl3 th, .dspTbl3 td {padding: 15px 0;}
+    /*참가신청*/
+    .join .field .inptBxXs.mailAd {width: 100px;}
+    .join .field .inptBxSm.mailAd {width: 150px;}
+    .mblBxwrap {padding: 10px;}
+    .prvcyTable td, .prvcyTable th {font-size: 0.7rem; padding: 15px 0;}
+    .inptBtn {font-size: 0.8rem; padding: 0 5px;}
+    .tabTxtBxWrap .tabTxTit.lineT h2 {font-size: 1.2rem;}
+    /*모달*/
+    .srvyPopup .srvyTit {height: 190px;}
+    .srvyPopup .srvyPopWrap {padding: 20px;}
+    /*시료수령확인*/
+    .notifiArea span {font-size: 0.85rem;}
+    /*자료실*/
+    .userRetrieve .field {margin: 0 10px;}
+    .userRetrieve .insert.search input {width: 280px;}
+    .userRetrieve .insert select {width: 150px;}
+    /*로그인*/
+    .lgnTxtBxWrap {width: auto}
+    .loginWrap {display: block;}
+    .loginBtn {margin: 0 auto; width: 100%; height: 60px; line-height: 60px;}
+    .loginNav {margin: 0 auto; padding-top: 20px; text-align: center;}
+    .logChk {display: block;}
+    .lgnBxWrap .inptBxSm {width: 180px;}
+    /*페이지 오류 안내*/
+    .pgeErrWrap {padding: 60px 20px;}
+}

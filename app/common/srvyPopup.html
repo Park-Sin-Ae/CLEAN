@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>팝업</title>
+    <link rel="stylesheet" href="../../assets/css/common.css">
+    <link rel="stylesheet" href="../../assets/css/layout.css">
+    <link rel="stylesheet" href="../../assets/css/media.css">
+    <link rel="stylesheet" href="../../assets/font/font.css">
+    <script src="../../assets/js/include.js"></script>
+    <script src="../../assets/js/commn.js"></script>
+    <script src="../../assets/js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<button class="modalBtn tableInBtn">설문조사 팝업</button>
+
+<div class="modal srvyPopup">
+    <div class="modal-content">
+        <div class="close"></div>
+        <div class="modalTab">
+            <div class="srvyTit">
+                <h2 class="color-green">2022년 공공데이터 개방 수요 설문조사</h2>
+                <p>2022.06.06 18:00 ~ 2022.12.31 16:29</p>
+            </div>
+            <div class="srvyPopWrap">
+                <div class="srvyTxt">
+                    <p>귀하의 무궁한 발전을 기원합니다. <br/>
+                        한국원자력안전기술원은 보유하고있는 공공 데이터를 국민 누구나 이용할 수 있도록 개방하는 공공데이터 개방 정책을 추진하고 있습니다.<br/>
+                        본 설문조사는 한국원자력안전기술원에서 제공하고 있는 공공데이터의 이용 현황을 파악하고<br/>
+                        신규 개방 공공데이터 발굴 및 활용을 확대하기 위한 목적으로 진행하고 있습니다.<br/>
+                        바쁘시더라도 잠시 시간을 내어 귀하의 소중한 의견을 부탁드립니다.</p>
+                </div>
+                <div class="btmTxtBx">
+                    <p><strong>※ 본 설문조사의 결과는 통계법 제 33조(비밀의 보호)에 의거 개인의 비밀에 속하는 사항은 엄격히 보호됩니다.<br/>※ 관련문의 : 한국원자력안전기술원 지식관리실 이헌철(042-868-0323)</strong></p>
+                </div>
+                <div class="txtBxWrap">
+                    <div class="srvyArea">
+                <span>1. 한국원자력안전기술원에서는 2013년부터 공공데이터포털(www.data.go.kr)를 통해 2022년까지 총 20개의 데이터를 개방하고 있습니다. <br/>
+       귀하께서는 공공데이터포털에서 개방하고 있는 공공데이터 목록을 알고 계십니까?</span>
+                        <ul class="chkArea">
+                            <li>
+                                <input id="srvyChk1" type="radio" checked/>
+                                <label for="srvyChk1">잘 알고있다.</label>
+                            </li>
+                            <li>
+                                <input id="srvyChk2" type="radio">
+                                <label for="srvyChk2">조금 알고있다.</label>
+                            </li>
+                            <li>
+                                <input id="srvyChk3" type="radio">
+                                <label for="srvyChk3">들어는 봤지만,큰 관심은 없다.</label>
+                            </li>
+                            <li>
+                                <input id="srvyChk4" type="radio">
+                                <label for="srvyChk4">잘 모른다.</label>
+                            </li>
+                            <li>
+                                <input id="srvyChk5" type="radio">
+                                <label for="srvyChk5">전혀 모른다.</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="srvyArea">
+                        <span>2. 귀하께서 공공데이터를 주로 제공받는 곳은 어디입니까?</span>
+                        <ul class="chkArea">
+                            <li>
+                                <input id="srvyChk6" type="radio" checked/>
+                                <label for="srvyChk6">한국원자력안전기술원 대표 홈페이지</label>
+                            </li>
+                            <li>
+                                <input id="srvyChk7" type="radio">
+                                <label for="srvyChk7">공공데이터포털 (www.data.go.kr)</label>
+                            </li>
+                            <li>
+                                <input id="srvyChk8" type="radio">
+                                <label for="srvyChk8">각 기관에 필요한 데이터를 직접 요청</label>
+                            </li>
+                            <li>
+                                <input id="srvyChk9" type="radio">
+                                <label for="srvyChk9">기타의견</label>
+                            </li>
+                            <li class="inptArea">
+                                <input type="text" title="내용을 입력해주세요." placeholder="내용을 입력해주세요.">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="srvyArea">
+                        <span>3. 활용한 경험이 있는 공공데이터의 활용 목적을 구체적으로 기재하여 주시기 바랍니다.<span class="color-green"> (공공데이터 개방현황 참고)</span></span>
+                        <textarea title="내용을 입력해주세요." placeholder="내용을 입력해주세요."></textarea>
+                    </div>
+                </div>
+                <div class="txtBx">
+                    <p>설문에 응답하여 주셔서 대단히 감사드립니다. <br/>
+                        귀하께서 작성해주신 내용을 바탕으로 더 나은 공공데이터를 제공할 수 있도록 노력하겠습니다.</p>
+                </div>
+                <div class="btnArea">
+                    <button>목록</button>
+                    <button>제출</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+<script src="../../assets/js/imprtJs.js"></script>

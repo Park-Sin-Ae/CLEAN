@@ -1,0 +1,254 @@
+<!--분석결과 입력현황-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLEAN</title>
+    <link rel="stylesheet" href="../../../assets/css/common.css">
+    <link rel="stylesheet" href="../../../assets/css/layout.css">
+    <link rel="stylesheet" href="../../../assets/font/font.css">
+    <script src="../../../assets/js/include.js"></script>
+    <script src="../../../assets/js/commn.js"></script>
+    <script src="../../../assets/js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<header class="header-adm header">
+    <div class="bottomLine"></div>
+    <div class="header-inner-adm layout-adm">
+        <h1 class="header-logo-adm">
+            <a href="../../main.html"><img src="/assets/img/adm-logo.png" alt="클린 관리자"></a>
+        </h1>
+        <div class="floatR">
+            <nav class="header-gnb-adm" id="gnb">
+                <ul class="gnb-depth-1">
+                    <li class="depth-1">
+                        <a href="../admAnablEvltn/anlAblEvlMnMng.html"><span>시스템 관리</span></a>
+                        <ul class="gnb-depth-2">
+                            <li class="depth-2"><a href="../admAnablEvltn/anlAblEvlMnMng.html">코드관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/anlysRsMgmt.html">메뉴관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/srvlnPrgrm.html">권한그룹게관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/msrSttInsStt.html">권한관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/anlysPro/envrnRdctv.html">단위코드 관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/anlysPro/envrnRdctv.html">기관관리</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth-1">
+                        <a href="../admAnablEvltn/anlAblEvlMnMng.html"><span>게시판 관리</span></a>
+                        <ul class="gnb-depth-2">
+                            <li class="depth-2"><a href="../admAnablEvltn/srvlnOvhst/srvlnOvrvw.html">공지사항</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/prpsLglBasis.html">자료실</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/anlysPro/envrnRdctv.html">보고서</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth-1">
+                        <a href="../admAnablEvltn/anlAblEvlMnMng.html"><span>분석능력평가운영</span></a>
+                        <ul class="gnb-depth-2">
+                            <li class="depth-2"><a href="../admAnablEvltn/srvlnOvhst/srvlnOvrvw.html">핵종 Master관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/prpsLglBasis.html">핵종 Sub관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/srvlnPrgrm.html">시료종류 관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/msrSttInsStt.html">분석대상 핵종관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/anlysPro/envrnRdctv.html">평가기준관리</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth-1">
+                        <a href="../admAnablEvltn/anlAblEvlMnMng.html"><span>분석능력평가관</span></a>
+                        <ul class="gnb-depth-2">
+                            <li class="depth-2"><a href="../admAnablEvltn/srvlnOvhst/srvlnOvrvw.html">평가년도관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/prpsLglBasis.html">사용자메뉴 관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/srvlnPrgrm.html">참여기관 관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/msrSttInsStt.html">시료수령 관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/anlysPro/envrnRdctv.html">사전회의 참여관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/anlysPro/envrnRdctv.html">분석결과 관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/anlysPro/envrnRdctv.html">분석평가 관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/anlysPro/envrnRdctv.html">원인분석 보고관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/anlysPro/envrnRdctv.html">핵종별평가결과관리</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth-1">
+                        <a href="../admAnablEvltn/anlAblEvlMnMng.html"><span>방사능분석네트워크</span></a>
+                        <ul class="gnb-depth-2">
+                            <li class="depth-2"><a href="../admAnablEvltn/srvlnOvhst/srvlnOvrvw.html">개최관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/prpsLglBasis.html">사용메뉴관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/srvlnPrgrm.html">일정관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/msrSttInsStt.html">사전등록현황</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/anlysPro/envrnRdctv.html">개인정보관리</a></li>
+                            <li class="depth-2"><a href="../admAnablEvltn/anlysPro/envrnRdctv.html">설문조사</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="useInfoBtn floatR">
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="subVisWrap">
+        <div class="snbMenu">
+            <div class="snbMenuWrap admSubMenuWrap">
+                <div class="snbBtn">
+                    <a href="../../main.html"><img src="../../../assets/img/home-ico.png" alt="메인페이지"></a>
+                </div>
+                <div class="snbMenuDrDw select">
+                    <span class="placeholder"><a href="#" class="notLink">방사능 분석능력평가</a></span>
+                    <ul>
+                        <li class="selected"><a href="ntcMgmtList.html">방사능 분석능력평가</a></li>
+                        <li><a href="../admAnlytNtwrk/mnMngWrite.html">방사능 분석네트워크</a></li>
+                    </ul>
+                </div>
+                <div class="snbMenuDrDw select">
+                    <span class="placeholder"><a href="#" class="notLink">참여기관 시료 수령현황</a></span>
+                    <ul>
+                        <li><a href="ntcMgmtList.html">공지사항</a></li>
+                        <li><a href="nclMgmt.html">핵종관리</a></li>
+                        <li><a href="smprcSttsMgmt.html">참여기관 시료 수령현황</a></li>
+                        <li class="selected"><a href="anlysRsMgmt.html">분석결과 입력현황</a></li>
+                        <li><a href="nclMngBnlt.html">분석대상 핵종관리</a></li>
+                        <li><a href="evltCrtrMgmt.html">평가기준 관리</a></li>
+                        <li><a href="prtAgnMngDtl.html">참여기관 관리상세</a></li>
+                        <li><a href="anlAblEvlMnMng.html">분석능력평가 메뉴관리</a></li>
+                        <li><a href="refRmMgmt.html">자료실</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="subPageWrap">
+            <div class="subPageTit">
+                <div class="subTitBar">
+                    <div></div>
+                    <div></div>
+                </div>
+                <h2>분석결과 입력현황</h2>
+            </div>
+            <div class="retrieve">
+                <div class="retrvWrap retrvWrapTrans">
+                    <form action="">
+                        <div class="field">
+                            <div>
+                                <label for="year">년도</label>
+                            </div>
+                            <div class="insert">
+                                <select name="year" id="year" title="년도">
+                                    <option value="" selected>2022</option>
+                                    <option value="">2021</option>
+                                    <option value="">2020</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div>
+                                <label for="sort">구분</label>
+                            </div>
+                            <div class="insert">
+                                <select name="sort" id="sort" title="구분">
+                                    <option value="" selected>기관그룹</option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div>
+                                <label for="search">검색어</label>
+                            </div>
+                            <div class="insert search">
+                                <input id="search" type="search" title="검색어를 입력해주세요." placeholder="검색어를 입력해주세요.">
+                            </div>
+                            <div class="insert search selectBtn">
+                                <button type="submit" class="btn">
+                                    <img src="../../../assets/img/search-w-ico.png" alt="검색">
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="setPage">
+                <button class="excelBtn"><img class="mr_5" src="../../../assets/img/excel-ico.png" alt="엑셀 다운로드">엑셀</button>
+                <div class="field">
+                    <div class="insert">
+                        <select title="보여지는 리스트 수">
+                            <option value="" selected>20건씩 보기</option>
+                            <option value="">30건씩 보기</option>
+                            <option value="">40건씩 보기</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <table class="brdrTcChg mt_15">
+                <thead>
+                <tr>
+                    <th rowspan="2">참여기관</th>
+                    <th colspan="2" class="txtCntr">Th동위원소</th>
+                    <th colspan="2" class="txtCntr">감마동위원소</th>
+                </tr>
+                <tr>
+                    <th>T-1</th>
+                    <th>T-2</th>
+                    <th>G-1</th>
+                    <th>G-2</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>강릉지방측정소</td>
+                    <td class="txtCntr">O</td>
+                    <td class="txtCntr">O</td>
+                    <td class="txtCntr"><span class="brdRed">미입력</span></td>
+                    <td class="txtCntr"><span class="brdGray">완료</span></td>
+                </tr>
+                <tr>
+                    <td>강릉지방측정소</td>
+                    <td class="txtCntr"><span class="brdGray">완료</span></td>
+                    <td class="txtCntr">O</td>
+                    <td class="txtCntr"><span class="brdRed">미입력</span></td>
+                    <td class="txtCntr"><span class="brdGreen">저장</span></td>
+                </tr>
+                <tr>
+                    <td>강릉지방측정소</td>
+                    <td class="txtCntr"><span class="brdGreen">저장</span></td>
+                    <td class="txtCntr">O</td>
+                    <td class="txtCntr"><span class="brdRed">미입력</span></td>
+                    <td class="txtCntr"><span class="brdGray">완료</span></td>
+                </tr>
+                <tr>
+                    <td>강릉지방측정소</td>
+                    <td class="txtCntr">O</td>
+                    <td class="txtCntr"><span class="brdGreen">저장</span></td>
+                    <td class="txtCntr"><span class="brdRed">미입력</span></td>
+                    <td class="txtCntr"><span class="brdGray">완료</span></td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="pageNation">
+                <a href="" class="page-btn prev-btn"><img src="../../../assets/img/prev-ico.png" alt="이전"></a>
+                <a href="" class="page-btn current">1</a>
+                <a href="" class="page-btn">2</a>
+                <a href="" class="page-btn">3</a>
+                <a href="" class="page-btn">4</a>
+                <a href="" class="page-btn">5</a>
+                <a href="" class="page-btn next-btn"><img src="../../../assets/img/next-ico.png" alt="다음"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<footer id="footer" class="footer">
+  <div class="ftWrap">
+    <div class="ftLogo">
+      <a href=""><img src="../../../assets/img/clean-logo.png" alt="클린"></a>
+    </div>
+    <div class="adr">
+      <span>대전광역시 유성구 과학로 62 (구성동 19-0) 한국원자력안전기술원 ｜ Tel : 042-868-0504 ｜ Fax : 042-868-0563</span>
+      <p class="copyRight">Copyright ⓒ 2022 CLEAN. All rights reserved</p>
+    </div>
+    <div class="ftWaLogo">
+      <a href=""><img src="../../../assets/img/wa-logo.png" alt="웹접근성 인증마크"></a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+<script src="../../../assets/js/imprtJs.js"></script>

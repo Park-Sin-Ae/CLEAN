@@ -1,0 +1,64 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    src: url(../font/notosanskr/NotoSansKR-Regular.woff2) format('woff2'),
+    url(../font/notosanskr/NotoSansKR-Regular.woff) format('woff'),
+    url(../font/notosanskr/NotoSansKR-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/notosanskr/NotoSansKR-Regular.woff2) format('woff2'),
+    url(../font/notosanskr/NotoSansKR-Regular.woff) format('woff'),
+    url(../font/notosanskr/NotoSansKR-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../font/notosanskr/NotoSansKR-Medium.woff2) format('woff2'),
+    url(../font/notosanskr/NotoSansKR-Medium.woff) format('woff'),
+    url(../font/notosanskr/NotoSansKR-Medium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 600;
+    src: url(../font/notosanskr/NotoSansKR-Bold.woff2) format('woff2'),
+    url(../font/notosanskr/NotoSansKR-Bold.woff) format('woff'),
+    url(../font/notosanskr/NotoSansKR-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR Bold';
+    font-style: normal;
+    src: url(../font/notosanskr/NotoSansKR-Bold.woff2) format('woff2'),
+    url(../font/notosanskr/NotoSansKR-Bold.woff) format('woff'),
+    url(../font/notosanskr/NotoSansKR-Bold.otf) format('opentype');
+}
+
+
+@font-face {
+    font-family: 'score';
+    font-weight: 200;
+    src: url(../font/sCoreDream/score2.eot) format('eot'),
+    url(../font/sCoreDream/score2.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'score';
+    src: url(../font/sCoreDream/score5.eot) format('eot'),
+    url(../font/sCoreDream/score5.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'score';
+    font-weight: 700;
+    src: url(../font/sCoreDream/score7.eot) format('eot'),
+    url(../font/sCoreDream/score7.woff) format('woff');
+}

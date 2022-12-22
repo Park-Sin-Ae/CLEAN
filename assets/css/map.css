@@ -1,0 +1,67 @@
+@charset "UTF-8";
+#msrMap, #sub {
+    border: 1px solid #ddd;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+#msrMap .background, #sub .background {
+    width: 100%;
+    height: 100%;
+}
+
+#msrMap, #sub {
+    fill: #FAFAFA;
+    height: 100%;
+    background: #fafafa;
+}
+
+#states {
+    width: 100%;
+    height: 100%;
+}
+
+#states path {
+    fill: #C6E7E9;
+    stroke: #FAFAFA;
+    stroke-width: 1px;
+}
+
+.sub_path {
+    fill: #D2E9C1 !important;
+    stroke: #FAFAFA !important;;
+    stroke-width: 1px;
+}
+
+#states path:hover {
+    fill: #09CB9C;
+}
+
+#states .active {
+    fill: #09CB9C;
+}
+
+#states .activeDetail {
+    fill: #09CB9C;
+}
+
+#states path {
+    cursor: pointer;
+}
+
+#states text {
+    cursor: pointer;
+    font-size: 12px;
+    fill: #fff;
+}
+
+.places {
+    fill: #30428B;
+}
+
+.sub_places {
+    fill: #00AB30;
+}
